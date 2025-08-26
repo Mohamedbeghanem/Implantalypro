@@ -1,0 +1,34 @@
+import { HeroSection } from "@/components/hero-section"
+import { ServicesOverview } from "@/components/services-overview"
+import { WhyChooseUs } from "@/components/why-choose-us"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { StatisticsSection } from "@/components/statistics-section"
+import { LatestBlogPosts } from "@/components/latest-blog-posts"
+
+interface HomePageProps {
+  params: Promise<{ locale: string }>
+}
+
+export default async function HomePage({ params }: HomePageProps) {
+  return (
+    <main className="min-h-screen">
+      {/* Hero Section */}
+      <HeroSection />
+      
+      {/* Services Section */}
+      <ServicesOverview />
+      
+      {/* Why Choose Us Section */}
+      <WhyChooseUs />
+      
+      {/* Statistics Section */}
+      <StatisticsSection />
+      
+      {/* Testimonials Section */}
+      <TestimonialsSection />
+      
+      {/* Latest Blog Posts */}
+      <LatestBlogPosts />
+    </main>
+  )
+}

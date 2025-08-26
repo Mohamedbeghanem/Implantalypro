@@ -1,0 +1,278 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "altaAcademy": "Académie Alta",
+    "idesign": "IDesign",
+    "blog": "Blog",
+    "appointments": "Rendez-vous",
+    "contact": "Contact",
+    "bookNow": "Réserver Maintenant"
+  },
+  "hero": {
+    "title": "Bienvenue chez Implantaly Group",
+    "subtitle": "Spécialistes de premier plan en implants dentaires avec une technologie de pointe et des soins compatissants. La transformation de votre sourire est notre expertise.",
+    "cta": "Réserver Votre Consultation",
+    "learnMore": "En Savoir Plus",
+    "features": {
+      "experience": "20+ Ans d'Expérience",
+      "technology": "Technologie d'Implant Avancée",
+      "care": "Soins Spécialisés",
+      "team": "Équipe d'Implant Experte",
+      "sameDayAppointments": "Consultations le même jour",
+      "insuranceAccepted": "Assurance acceptée"
+    }
+  },
+  "about": {
+    "title": "À Propos d'Implantaly Group",
+    "subtitle": "Dédié à fournir des solutions d'implants dentaires exceptionnelles avec une expertise spécialisée",
+    "description": "Nous croyons que chaque patient mérite les soins d'implants dentaires de la plus haute qualité dans un environnement confortable et accueillant. Notre équipe de spécialistes d'implants expérimentés s'engage à vous aider à atteindre et maintenir une santé bucco-dentaire optimale et de beaux sourires pour la vie.",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Fournir des solutions d'implants dentaires complètes dans un environnement confortable et moderne, en s'assurant que chaque patient reparte avec un sourire sain et beau et une confiance restaurée."
+    },
+    "values": {
+      "excellence": "Excellence",
+      "compassion": "Compassion",
+      "innovation": "Innovation",
+      "trust": "Confiance"
+    },
+    "team": {
+      "title": "Rencontrez Notre Équipe",
+      "subtitle": "Professionnels expérimentés dédiés à votre santé bucco-dentaire"
+    },
+    "stats": {
+      "happyPatients": "Patients Satisfaits",
+      "yearsExperience": "Années d'Expérience",
+      "awardsWon": "Prix Remportés",
+      "locations": "Emplacements"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Solutions d'implants dentaires complètes pour tous vos besoins",
+    "description": "Des implants à dent unique aux restaurations d'arc complet, nous offrons une gamme complète de services d'implants dentaires utilisant les dernières technologies et techniques. Notre objectif est de vous aider à atteindre une santé bucco-dentaire optimale et un beau sourire confiant.",
+    "categories": {
+      "preventive": "Consultation d'Implant",
+      "restorative": "Implants à Dent Unique",
+      "cosmetic": "Implants d'Arc Complet",
+      "orthodontics": "Implants All-on-4",
+      "surgery": "Chirurgie d'Implant",
+      "emergency": "Soins d'Implant d'Urgence"
+    },
+    "benefits": {
+      "latestTechnology": "Dernière Technologie",
+      "experiencedProfessionals": "Professionnels Expérimentés",
+      "comfortableEnvironment": "Environnement Confortable",
+      "flexiblePayment": "Options de Paiement Flexibles"
+    },
+    "actions": {
+      "scheduleConsultation": "Planifier une Consultation",
+      "askQuestions": "Poser des Questions"
+    }
+  },
+  "appointments": {
+    "title": "Réserver Votre Rendez-vous",
+    "subtitle": "Planifiez votre visite avec nos professionnels dentaires",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "phone": "Numéro de Téléphone",
+      "date": "Date Préférée",
+      "time": "Heure Préférée",
+      "service": "Type de Service",
+      "message": "Notes Supplémentaires",
+      "submit": "Réserver Rendez-vous",
+      "newPatient": "Nouveau Patient",
+      "existingPatient": "Patient Existant",
+      "insuranceProvider": "Fournisseur d'Assurance",
+      "memberId": "Numéro de Membre",
+      "additionalNotes": "Notes Supplémentaires",
+      "emergencyContact": "Contact d'Urgence",
+      "emergencyContactName": "Nom du Contact d'Urgence",
+      "emergencyContactPhone": "Téléphone du Contact d'Urgence",
+      "emergencyContactRelationship": "Relation avec le Patient"
+    },
+    "timeSlots": {
+      "9am": "9h00",
+      "930am": "9h30",
+      "10am": "10h00",
+      "1030am": "10h30",
+      "11am": "11h00",
+      "1130am": "11h30",
+      "1pm": "13h00",
+      "130pm": "13h30",
+      "2pm": "14h00",
+      "230pm": "14h30",
+      "3pm": "15h00",
+      "330pm": "15h30",
+      "4pm": "16h00",
+      "430pm": "16h30"
+    },
+    "services": {
+      "routineCleaning": "Consultation d'Implant",
+      "dentalExam": "Évaluation d'Implant",
+      "teethWhitening": "Maintenance d'Implant",
+      "filling": "Restauration d'Implant",
+      "crownBridge": "Couronne/Pont d'Implant",
+      "rootCanal": "Révision d'Implant",
+      "dentalImplant": "Implant Dentaire",
+      "orthodonticConsultation": "Consultation All-on-4",
+      "emergencyVisit": "Soins d'Implant d'Urgence",
+      "other": "Autre"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Entrez en contact avec notre équipe",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "send": "Envoyer le Message"
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Heures"
+    },
+    "inquiryTypes": {
+      "generalInformation": "Informations Générales",
+      "appointmentScheduling": "Planification de Rendez-vous",
+      "insuranceQuestions": "Questions d'Assurance",
+      "treatmentConsultation": "Consultation de Traitement",
+      "billingInquiry": "Demande de Facturation",
+      "emergency": "Urgence",
+      "other": "Autre"
+    },
+    "preferredContact": "Méthode de Contact Préférée",
+    "phone": "Téléphone",
+    "email": "Email",
+    "both": "Les Deux"
+  },
+  "footer": {
+    "copyright": "© 2024 Implantaly Group. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions de Service"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "success": "Succès !",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent"
+  },
+  "blog": {
+    "title": "Blog de Santé d'Implant",
+    "subtitle": "Conseils d'experts et astuces pour maintenir vos implants dentaires et votre santé bucco-dentaire",
+    "readMore": "Lire Plus",
+    "publishedOn": "Publié le",
+    "author": "Auteur",
+    "category": "Catégorie",
+    "tags": "Tags",
+    "share": "Partager",
+    "relatedPosts": "Articles Connexes",
+    "backToBlog": "Retour au Blog",
+    "search": "Rechercher des articles...",
+    "categories": {
+      "all": "Toutes les Catégories",
+      "oralHealth": "Soins d'Implant",
+      "dentalCare": "Implants Dentaires",
+      "cosmeticDentistry": "Restauration d'Implant",
+      "orthodontics": "Implants All-on-4",
+      "preventiveCare": "Maintenance d'Implant"
+    }
+  },
+  "testimonials": {
+    "title": "Ce que Disent Nos Patients",
+    "subtitle": "Ne nous croyez pas sur parole. Voici ce que nos patients disent de leur expérience chez Implantaly Group.",
+    "averageRating": "4.9/5 Note Moyenne",
+    "happyPatients": "1000+ Patients Satisfaits",
+    "yearsExperience": "20+ Ans d'Expérience"
+  },
+  "whyChooseUs": {
+    "title": "Pourquoi Choisir Implantaly Group?",
+    "subtitle": "Nous combinons technologie d'implant avancée, spécialistes expérimentés et soins compatissants pour offrir des expériences d'implants dentaires exceptionnelles à vous et votre famille.",
+    "advancedTechnology": "Technologie Avancée",
+    "sameDayAppointments": "Rendez-vous le Même Jour",
+    "expertTeam": "Équipe Experte",
+    "compassionateCare": "Soins Compatissants",
+    "familyFriendly": "Adapté aux Familles",
+    "modernFacility": "Installation Moderne",
+    "yearsExperience": "Années d'Expérience",
+    "happyPatients": "Patients Satisfaits",
+    "patientSatisfaction": "Satisfaction des Patients",
+    "emergencyCare": "Soins d'Urgence"
+  },
+  "statistics": {
+    "title": "Implantaly Group en Chiffres",
+    "subtitle": "Notre engagement envers l'excellence se reflète dans les chiffres qui comptent le plus - la satisfaction de nos patients et nos années de service dévoué.",
+    "happyPatients": "Patients Satisfaits",
+    "yearsExperience": "Années d'Expérience",
+    "emergencyCare": "Soins d'Urgence",
+    "patientSatisfaction": "Satisfaction des Patients"
+  },
+  "emergency": {
+    "title": "Soins d'Implant d'Urgence",
+    "subtitle": "Les urgences d'implant peuvent survenir à tout moment. Nous sommes là pour vous aider quand vous en avez le plus besoin avec des soins d'urgence d'implant 24h/24 et 7j/7.",
+    "emergencyHotline": "Ligne d'Urgence",
+    "officeHours": "Heures d'Ouverture",
+    "location": "Emplacement",
+    "callEmergency": "Appeler la Ligne d'Urgence",
+    "sendMessage": "Envoyer un Message",
+    "important": "Important: Pour les urgences mettant la vie en danger, veuillez appeler le 911 ou vous rendre aux urgences les plus proches immédiatement."
+  },
+  "home": {
+    "latestInsights": "Derniers Conseils de Santé d'Implant",
+    "latestInsightsSubtitle": "Restez informé avec nos derniers articles sur les implants dentaires, conseils de soins d'implant et aperçus des traitements.",
+    "viewAllArticles": "Voir Tous les Articles",
+    "readMore": "Lire Plus"
+  },
+  "altaAcademy": {
+    "title": "Faites Progresser Votre Carrière Dentaire",
+    "subtitle": "Programmes de coaching et d'éducation dentaire professionnels conçus pour élever vos compétences et faire progresser votre carrière en implantologie.",
+    "cta": "Voir les Cours",
+    "learnMore": "Contacter l'Académie",
+    "features": {
+      "expertInstructors": "Instructeurs Experts",
+      "interactiveLearning": "Apprentissage Interactif",
+      "comprehensiveCurriculum": "Curriculum Complet",
+      "certificationPrograms": "Programmes de Certification"
+    },
+    "stats": {
+      "graduates": "500+ Diplômés",
+      "courses": "50+ Cours"
+    },
+    "status": {
+      "liveClasses": "Cours en Ligne en Direct",
+      "ceCredits": "Crédits CE Disponibles"
+    }
+  },
+  "idesign": {
+    "title": "Visualisez Votre Sourire Parfait",
+    "subtitle": "Technologie de conception 3D de pointe pour les implants dentaires et les restaurations. Voyez vos résultats de traitement avant qu'ils ne se produisent.",
+    "cta": "Voir le Portfolio",
+    "learnMore": "Commencer la Conception",
+    "features": {
+      "3dModeling": "Modélisation 3D",
+      "virtualReality": "Réalité Virtuelle",
+      "customDesign": "Conception Personnalisée",
+      "realTimePreview": "Aperçu en Temps Réel"
+    },
+    "stats": {
+      "designsCreated": "1000+ Conceptions Créées",
+      "accuracyRate": "99% Taux de Précision"
+    },
+    "status": {
+      "3dVisualization": "Visualisation 3D",
+      "vrExperience": "Expérience VR"
+    }
+  }
+}

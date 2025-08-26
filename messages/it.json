@@ -1,0 +1,278 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "services": "Servizi",
+    "altaAcademy": "Accademia Alta",
+    "idesign": "IDesign",
+    "blog": "Blog",
+    "appointments": "Appuntamenti",
+    "contact": "Contatti",
+    "bookNow": "Prenota Ora"
+  },
+  "hero": {
+    "title": "Benvenuti in Implantaly Group",
+    "subtitle": "Specialisti leader in impianti dentali con tecnologia all'avanguardia e cure compassionevoli. La trasformazione del tuo sorriso è la nostra competenza.",
+    "cta": "Prenota la Tua Consulenza",
+    "learnMore": "Scopri di Più",
+    "features": {
+      "experience": "20+ Anni di Esperienza",
+      "technology": "Tecnologia di Impianto Avanzata",
+      "care": "Cure Specializzate",
+      "team": "Team di Impianto Esperto",
+      "sameDayAppointments": "Consulenze lo stesso giorno",
+      "insuranceAccepted": "Assicurazione accettata"
+    }
+  },
+  "about": {
+    "title": "Chi Siamo - Implantaly Group",
+    "subtitle": "Dedicati a fornire soluzioni di impianti dentali eccezionali con competenza specializzata",
+    "description": "Crediamo che ogni paziente meriti le cure di impianti dentali di massima qualità in un ambiente confortevole e accogliente. Il nostro team di specialisti di impianti esperti si impegna ad aiutarti a raggiungere e mantenere una salute orale ottimale e bei sorrisi per tutta la vita.",
+    "mission": {
+      "title": "La Nostra Missione",
+      "description": "Fornire soluzioni complete di impianti dentali in un ambiente confortevole e moderno, assicurandoci che ogni paziente esca con un sorriso sano e bello e una fiducia restaurata."
+    },
+    "values": {
+      "excellence": "Eccellenza",
+      "compassion": "Compassione",
+      "innovation": "Innovazione",
+      "trust": "Fiducia"
+    },
+    "team": {
+      "title": "Incontra il Nostro Team",
+      "subtitle": "Professionisti esperti dedicati alla tua salute orale"
+    },
+    "stats": {
+      "happyPatients": "Pazienti Soddisfatti",
+      "yearsExperience": "Anni di Esperienza",
+      "awardsWon": "Premi Vinti",
+      "locations": "Sedi"
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Soluzioni complete di impianti dentali per tutte le tue esigenze",
+    "description": "Dagli impianti a dente singolo alle riabilitazioni di arcata completa, offriamo una gamma completa di servizi di impianti dentali utilizzando le ultime tecnologie e tecniche. Il nostro obiettivo è aiutarti a raggiungere una salute orale ottimale e un bel sorriso sicuro.",
+    "categories": {
+      "preventive": "Consulenza Impianto",
+      "restorative": "Impianti a Dente Singolo",
+      "cosmetic": "Impianti di Arcata Completa",
+      "orthodontics": "Impianti All-on-4",
+      "surgery": "Chirurgia Impianto",
+      "emergency": "Cure di Impianto d'Emergenza"
+    },
+    "benefits": {
+      "latestTechnology": "Ultima Tecnologia",
+      "experiencedProfessionals": "Professionisti Esperti",
+      "comfortableEnvironment": "Ambiente Confortevole",
+      "flexiblePayment": "Opzioni di Pagamento Flessibili"
+    },
+    "actions": {
+      "scheduleConsultation": "Prenota Consultazione",
+      "askQuestions": "Fai Domande"
+    }
+  },
+  "appointments": {
+    "title": "Prenota il Tuo Appuntamento",
+    "subtitle": "Programma la tua visita con i nostri professionisti dentali",
+    "form": {
+      "name": "Nome Completo",
+      "email": "Indirizzo Email",
+      "phone": "Numero di Telefono",
+      "date": "Data Preferita",
+      "time": "Orario Preferito",
+      "service": "Tipo di Servizio",
+      "message": "Note Aggiuntive",
+      "submit": "Prenota Appuntamento",
+      "newPatient": "Nuovo Paziente",
+      "existingPatient": "Paziente Esistente",
+      "insuranceProvider": "Fornitore Assicurativo",
+      "memberId": "Numero Membro",
+      "additionalNotes": "Note Aggiuntive",
+      "emergencyContact": "Contatto d'Emergenza",
+      "emergencyContactName": "Nome Contatto d'Emergenza",
+      "emergencyContactPhone": "Telefono Contatto d'Emergenza",
+      "emergencyContactRelationship": "Relazione con il Paziente"
+    },
+    "timeSlots": {
+      "9am": "9:00",
+      "930am": "9:30",
+      "10am": "10:00",
+      "1030am": "10:30",
+      "11am": "11:00",
+      "1130am": "11:30",
+      "1pm": "13:00",
+      "130pm": "13:30",
+      "2pm": "14:00",
+      "230pm": "14:30",
+      "3pm": "15:00",
+      "330pm": "15:30",
+      "4pm": "16:00",
+      "430pm": "16:30"
+    },
+    "services": {
+      "routineCleaning": "Consulenza Impianto",
+      "dentalExam": "Valutazione Impianto",
+      "teethWhitening": "Manutenzione Impianto",
+      "filling": "Ripristino Impianto",
+      "crownBridge": "Corona/Ponte Impianto",
+      "rootCanal": "Revisione Impianto",
+      "dentalImplant": "Impianto Dentale",
+      "orthodonticConsultation": "Consulenza All-on-4",
+      "emergencyVisit": "Cure di Impianto d'Emergenza",
+      "other": "Altro"
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Mettiti in contatto con il nostro team",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia Messaggio"
+    },
+    "info": {
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "email": "Email",
+      "hours": "Orari"
+    },
+    "inquiryTypes": {
+      "generalInformation": "Informazioni Generali",
+      "appointmentScheduling": "Prenotazione Appuntamenti",
+      "insuranceQuestions": "Domande Assicurative",
+      "treatmentConsultation": "Consultazione Trattamento",
+      "billingInquiry": "Richiesta Fatturazione",
+      "emergency": "Emergenza",
+      "other": "Altro"
+    },
+    "preferredContact": "Metodo di Contatto Preferito",
+    "phone": "Telefono",
+    "email": "Email",
+    "both": "Entrambi"
+  },
+  "footer": {
+    "copyright": "© 2024 Implantaly Group. Tutti i diritti riservati.",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio"
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Si è verificato un errore",
+    "success": "Successo!",
+    "close": "Chiudi",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "back": "Indietro",
+    "next": "Avanti",
+    "previous": "Precedente"
+  },
+  "blog": {
+    "title": "Blog di Salute Impianto",
+    "subtitle": "Consigli di esperti e suggerimenti per mantenere i tuoi impianti dentali e la tua salute orale",
+    "readMore": "Leggi di Più",
+    "publishedOn": "Pubblicato il",
+    "author": "Autore",
+    "category": "Categoria",
+    "tags": "Tag",
+    "share": "Condividi",
+    "relatedPosts": "Articoli Correlati",
+    "backToBlog": "Torna al Blog",
+    "search": "Cerca articoli...",
+    "categories": {
+      "all": "Tutte le Categorie",
+      "oralHealth": "Cure Impianto",
+      "dentalCare": "Impianti Dentali",
+      "cosmeticDentistry": "Ripristino Impianto",
+      "orthodontics": "Impianti All-on-4",
+      "preventiveCare": "Manutenzione Impianto"
+    }
+  },
+  "testimonials": {
+    "title": "Cosa Dicono i Nostri Pazienti",
+    "subtitle": "Non credere solo a noi. Ecco cosa dicono i nostri pazienti della loro esperienza da Implantaly Group.",
+    "averageRating": "4.9/5 Valutazione Media",
+    "happyPatients": "1000+ Pazienti Soddisfatti",
+    "yearsExperience": "20+ Anni di Esperienza"
+  },
+  "whyChooseUs": {
+    "title": "Perché Scegliere Implantaly Group?",
+    "subtitle": "Combiniamo tecnologia di impianto avanzata, specialisti esperti e cure compassionevoli per offrire esperienze di impianti dentali eccezionali a te e alla tua famiglia.",
+    "advancedTechnology": "Tecnologia Avanzata",
+    "sameDayAppointments": "Appuntamenti lo Stesso Giorno",
+    "expertTeam": "Team Esperto",
+    "compassionateCare": "Cure Compassionevoli",
+    "familyFriendly": "Adatto alle Famiglie",
+    "modernFacility": "Struttura Moderna",
+    "yearsExperience": "Anni di Esperienza",
+    "happyPatients": "Pazienti Soddisfatti",
+    "patientSatisfaction": "Soddisfazione dei Pazienti",
+    "emergencyCare": "Cure d'Emergenza"
+  },
+  "statistics": {
+    "title": "Implantaly Group in Numeri",
+    "subtitle": "Il nostro impegno per l'eccellenza si riflette nei numeri che contano di più - la soddisfazione dei nostri pazienti e i nostri anni di servizio dedicato.",
+    "happyPatients": "Pazienti Soddisfatti",
+    "yearsExperience": "Anni di Esperienza",
+    "emergencyCare": "Cure d'Emergenza",
+    "patientSatisfaction": "Soddisfazione dei Pazienti"
+  },
+  "emergency": {
+    "title": "Cure di Impianto d'Emergenza",
+    "subtitle": "Le emergenze di impianto possono verificarsi in qualsiasi momento. Siamo qui per aiutarti quando ne hai più bisogno con cure di emergenza di impianto 24/7.",
+    "emergencyHotline": "Linea d'Emergenza",
+    "officeHours": "Orari di Ufficio",
+    "location": "Posizione",
+    "callEmergency": "Chiama la Linea d'Emergenza",
+    "sendMessage": "Invia Messaggio",
+    "important": "Importante: Per emergenze pericolose per la vita, chiama immediatamente il 911 o vai al pronto soccorso più vicino."
+  },
+  "home": {
+    "latestInsights": "Ultimi Consigli di Salute Impianto",
+    "latestInsightsSubtitle": "Rimani informato con i nostri ultimi articoli su impianti dentali, consigli di cure di impianto e approfondimenti sui trattamenti.",
+    "viewAllArticles": "Vedi Tutti gli Articoli",
+    "readMore": "Leggi di Più"
+  },
+  "altaAcademy": {
+    "title": "Fai Progressi nella Tua Carriera Dentale",
+    "subtitle": "Programmi di coaching e educazione dentale professionale progettati per elevare le tue competenze e far progredire la tua carriera in implantologia.",
+    "cta": "Vedi i Corsi",
+    "learnMore": "Contatta l'Accademia",
+    "features": {
+      "expertInstructors": "Istruttori Esperti",
+      "interactiveLearning": "Apprendimento Interattivo",
+      "comprehensiveCurriculum": "Curriculum Completo",
+      "certificationPrograms": "Programmi di Certificazione"
+    },
+    "stats": {
+      "graduates": "500+ Laureati",
+      "courses": "50+ Corsi"
+    },
+    "status": {
+      "liveClasses": "Classi Online dal Vivo",
+      "ceCredits": "Crediti CE Disponibili"
+    }
+  },
+  "idesign": {
+    "title": "Visualizza il Tuo Sorriso Perfetto",
+    "subtitle": "Tecnologia di progettazione 3D all'avanguardia per impianti dentali e ripristini. Vedi i tuoi risultati di trattamento prima che accadano.",
+    "cta": "Vedi il Portfolio",
+    "learnMore": "Inizia la Progettazione",
+    "features": {
+      "3dModeling": "Modellazione 3D",
+      "virtualReality": "Realtà Virtuale",
+      "customDesign": "Progettazione Personalizzata",
+      "realTimePreview": "Anteprima in Tempo Reale"
+    },
+    "stats": {
+      "designsCreated": "1000+ Progetti Creati",
+      "accuracyRate": "99% Tasso di Precisione"
+    },
+    "status": {
+      "3dVisualization": "Visualizzazione 3D",
+      "vrExperience": "Esperienza VR"
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "altaAcademy": "Alta Academy",
+    "idesign": "IDesign",
+    "blog": "Blog",
+    "appointments": "Appointments",
+    "contact": "Contact",
+    "bookNow": "Book Now"
+  },
+  "hero": {
+    "title": "Welcome to Implantaly Group",
+    "subtitle": "Leading dental implant specialists with state-of-the-art technology and compassionate care. Your smile transformation is our expertise.",
+    "cta": "Book Your Consultation",
+    "learnMore": "Learn More",
+    "features": {
+      "experience": "20+ Years Experience",
+      "technology": "Advanced Implant Technology",
+      "care": "Specialized Care",
+      "team": "Expert Implant Team",
+      "sameDayAppointments": "Same-day consultations",
+      "insuranceAccepted": "Insurance accepted"
+    }
+  },
+  "about": {
+    "title": "About Implantaly Group",
+    "subtitle": "Dedicated to providing exceptional dental implant solutions with specialized expertise",
+    "description": "We believe that every patient deserves the highest quality dental implant care in a comfortable, welcoming environment. Our team of experienced implant specialists is committed to helping you achieve and maintain optimal oral health and beautiful smiles for life.",
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide comprehensive dental implant solutions in a comfortable, modern environment, ensuring every patient leaves with a healthy, beautiful smile and restored confidence."
+    },
+    "values": {
+      "excellence": "Excellence",
+      "compassion": "Compassion",
+      "innovation": "Innovation",
+      "trust": "Trust"
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "subtitle": "Experienced professionals dedicated to your oral health"
+    },
+    "stats": {
+      "happyPatients": "Happy Patients",
+      "yearsExperience": "Years Experience",
+      "awardsWon": "Awards Won",
+      "locations": "Locations"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive dental implant solutions for all your needs",
+    "description": "From single tooth implants to full arch restorations, we offer a full range of dental implant services using the latest technology and techniques. Our goal is to help you achieve optimal oral health and a beautiful, confident smile.",
+    "categories": {
+      "preventive": "Implant Consultation",
+      "restorative": "Single Tooth Implants",
+      "cosmetic": "Full Arch Implants",
+      "orthodontics": "All-on-4 Implants",
+      "surgery": "Implant Surgery",
+      "emergency": "Emergency Implant Care"
+    },
+    "benefits": {
+      "latestTechnology": "Latest Technology",
+      "experiencedProfessionals": "Experienced Professionals",
+      "comfortableEnvironment": "Comfortable Environment",
+      "flexiblePayment": "Flexible Payment Options"
+    },
+    "actions": {
+      "scheduleConsultation": "Schedule Consultation",
+      "askQuestions": "Ask Questions"
+    }
+  },
+  "appointments": {
+    "title": "Book Your Appointment",
+    "subtitle": "Schedule your visit with our dental professionals",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "date": "Preferred Date",
+      "time": "Preferred Time",
+      "service": "Service Type",
+      "message": "Additional Notes",
+      "submit": "Book Appointment",
+      "newPatient": "New Patient",
+      "existingPatient": "Existing Patient",
+      "insuranceProvider": "Insurance Provider",
+      "memberId": "Member ID",
+      "additionalNotes": "Additional Notes",
+      "emergencyContact": "Emergency Contact",
+      "emergencyContactName": "Emergency Contact Name",
+      "emergencyContactPhone": "Emergency Contact Phone",
+      "emergencyContactRelationship": "Relationship to Patient"
+    },
+    "timeSlots": {
+      "9am": "9:00 AM",
+      "930am": "9:30 AM",
+      "10am": "10:00 AM",
+      "1030am": "10:30 AM",
+      "11am": "11:00 AM",
+      "1130am": "11:30 AM",
+      "1pm": "1:00 PM",
+      "130pm": "1:30 PM",
+      "2pm": "2:00 PM",
+      "230pm": "2:30 PM",
+      "3pm": "3:00 PM",
+      "330pm": "3:30 PM",
+      "4pm": "4:00 PM",
+      "430pm": "4:30 PM"
+    },
+    "services": {
+      "routineCleaning": "Implant Consultation",
+      "dentalExam": "Implant Assessment",
+      "teethWhitening": "Implant Maintenance",
+      "filling": "Implant Restoration",
+      "crownBridge": "Implant Crown/Bridge",
+      "rootCanal": "Implant Revision",
+      "dentalImplant": "Dental Implant",
+      "orthodonticConsultation": "All-on-4 Consultation",
+      "emergencyVisit": "Emergency Implant Care",
+      "other": "Other"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message"
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Hours"
+    },
+    "inquiryTypes": {
+      "generalInformation": "General Information",
+      "appointmentScheduling": "Appointment Scheduling",
+      "insuranceQuestions": "Insurance Questions",
+      "treatmentConsultation": "Treatment Consultation",
+      "billingInquiry": "Billing Inquiry",
+      "emergency": "Emergency",
+      "other": "Other"
+    },
+    "preferredContact": "Preferred Contact Method",
+    "phone": "Phone",
+    "email": "Email",
+    "both": "Both"
+  },
+  "footer": {
+    "copyright": "© 2024 Implantaly Group. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success!",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "blog": {
+    "title": "Implant Health Blog",
+    "subtitle": "Expert insights and tips for maintaining your dental implants and oral health",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "author": "Author",
+    "category": "Category",
+    "tags": "Tags",
+    "share": "Share",
+    "relatedPosts": "Related Posts",
+    "backToBlog": "Back to Blog",
+    "search": "Search articles...",
+    "categories": {
+      "all": "All Categories",
+      "oralHealth": "Implant Care",
+      "dentalCare": "Dental Implants",
+      "cosmeticDentistry": "Implant Restoration",
+      "orthodontics": "All-on-4 Implants",
+      "preventiveCare": "Implant Maintenance"
+    }
+  },
+  "testimonials": {
+    "title": "What Our Patients Say",
+    "subtitle": "Don't just take our word for it. Here's what our patients have to say about their experience at Implantaly Group.",
+    "averageRating": "4.9/5 Average Rating",
+    "happyPatients": "1000+ Happy Patients",
+    "yearsExperience": "20+ Years Experience"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Implantaly Group?",
+    "subtitle": "We combine advanced implant technology, experienced specialists, and compassionate care to deliver exceptional dental implant experiences for you and your family.",
+    "advancedTechnology": "Advanced Technology",
+    "sameDayAppointments": "Same-Day Appointments",
+    "expertTeam": "Expert Team",
+    "compassionateCare": "Compassionate Care",
+    "familyFriendly": "Family-Friendly",
+    "modernFacility": "Modern Facility",
+    "yearsExperience": "Years of Experience",
+    "happyPatients": "Happy Patients",
+    "patientSatisfaction": "Patient Satisfaction",
+    "emergencyCare": "Emergency Care"
+  },
+  "statistics": {
+    "title": "Implantaly Group by the Numbers",
+    "subtitle": "Our commitment to excellence is reflected in the numbers that matter most - our patients' satisfaction and our years of dedicated service.",
+    "happyPatients": "Happy Patients",
+    "yearsExperience": "Years Experience",
+    "emergencyCare": "Emergency Care",
+    "patientSatisfaction": "Patient Satisfaction"
+  },
+  "emergency": {
+    "title": "Emergency Implant Care",
+    "subtitle": "Implant emergencies can happen at any time. We're here to help when you need us most with 24/7 emergency implant care.",
+    "emergencyHotline": "Emergency Hotline",
+    "officeHours": "Office Hours",
+    "location": "Location",
+    "callEmergency": "Call Emergency Line",
+    "sendMessage": "Send Message",
+    "important": "Important: For life-threatening emergencies, please call 911 or visit your nearest emergency room immediately."
+  },
+  "home": {
+    "latestInsights": "Latest Implant Health Insights",
+    "latestInsightsSubtitle": "Stay informed with our latest articles on dental implants, implant care tips, and treatment insights.",
+    "viewAllArticles": "View All Articles",
+    "readMore": "Read More"
+  },
+  "altaAcademy": {
+    "title": "Advance Your Dental Career",
+    "subtitle": "Professional dental coaching and education programs designed to elevate your skills and advance your career in implant dentistry.",
+    "cta": "View Courses",
+    "learnMore": "Contact Academy",
+    "features": {
+      "expertInstructors": "Expert Instructors",
+      "interactiveLearning": "Interactive Learning",
+      "comprehensiveCurriculum": "Comprehensive Curriculum",
+      "certificationPrograms": "Certification Programs"
+    },
+    "stats": {
+      "graduates": "500+ Graduates",
+      "courses": "50+ Courses"
+    },
+    "status": {
+      "liveClasses": "Live Online Classes",
+      "ceCredits": "CE Credits Available"
+    }
+  },
+  "idesign": {
+    "title": "Visualize Your Perfect Smile",
+    "subtitle": "Cutting-edge 3D design technology for dental implants and restorations. See your treatment results before they happen.",
+    "cta": "View Portfolio",
+    "learnMore": "Start Design",
+    "features": {
+      "3dModeling": "3D Modeling",
+      "virtualReality": "Virtual Reality",
+      "customDesign": "Custom Design",
+      "realTimePreview": "Real-time Preview"
+    },
+    "stats": {
+      "designsCreated": "1000+ Designs Created",
+      "accuracyRate": "99% Accuracy Rate"
+    },
+    "status": {
+      "3dVisualization": "3D Visualization",
+      "vrExperience": "VR Experience"
+    }
+  }
+}
