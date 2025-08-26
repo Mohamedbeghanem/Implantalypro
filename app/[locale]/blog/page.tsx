@@ -66,7 +66,7 @@ const sampleBlogPosts = [
 
 export default async function BlogPage({ params }: BlogPageProps) {
   const { locale } = await params
-
+  
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       {/* Hero Section */}

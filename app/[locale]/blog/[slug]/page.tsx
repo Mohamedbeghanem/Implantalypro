@@ -124,7 +124,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   
   // Find the blog post
   const post = sampleBlogPosts.find(p => p.slug === slug)
-  
+
   if (!post) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -132,7 +132,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <h1 className="text-2xl font-bold mb-4">Blog Post Not Found</h1>
           <Link href={`/${locale}/blog`} className="text-blue-600 hover:underline">
             Back to Blog
-          </Link>
+           </Link>
         </div>
       </div>
     )
@@ -146,104 +146,104 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50">
       <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Back Button */}
+      {/* Back Button */}
         <div className="mb-8">
           <Link href={`/${locale}/blog`}>
             <Button variant="outline" className="flex items-center gap-2">
-              <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-4 h-4" />
               Back to Blog
             </Button>
-          </Link>
-        </div>
+        </Link>
+      </div>
 
         <article className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl">
-          {/* Header */}
+        {/* Header */}
           <header className="mb-8">
             <Badge variant="secondary" className="mb-4">
               {post.category}
             </Badge>
             <h1 className="text-4xl font-bold text-foreground mb-4">
-              {post.title}
-            </h1>
+            {post.title}
+          </h1>
             <p className="text-xl text-muted-foreground mb-6">
               {post.excerpt}
             </p>
 
-            {/* Meta Information */}
-            <div className="flex flex-wrap items-center gap-6 text-muted-foreground mb-6">
-              <div className="flex items-center gap-2">
-                <Calendar className="w-4 h-4" />
+          {/* Meta Information */}
+          <div className="flex flex-wrap items-center gap-6 text-muted-foreground mb-6">
+                         <div className="flex items-center gap-2">
+               <Calendar className="w-4 h-4" />
                 <span>{new Date(post.publishedAt).toLocaleDateString(locale)}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <User className="w-4 h-4" />
-                <span>{post.author}</span>
-              </div>
+             </div>
+            <div className="flex items-center gap-2">
+              <User className="w-4 h-4" />
+              <span>{post.author}</span>
             </div>
-
-            {/* Tags */}
-            {post.tags.length > 0 && (
-              <div className="flex flex-wrap gap-2">
-                {post.tags.map((tag, index) => (
-                  <Badge key={index} variant="outline" className="text-sm">
-                    <Tag className="w-3 h-3 mr-1" />
-                    {tag}
-                  </Badge>
-                ))}
-              </div>
-            )}
-          </header>
-
-          {/* Featured Image */}
-          <div className="mb-12">
-            <Image
-              src={post.image}
-              alt={post.title}
-              width={800}
-              height={400}
-              className="w-full h-64 md:h-96 object-cover rounded-2xl shadow-lg"
-            />
           </div>
 
-          {/* Content */}
-          <div className="prose prose-lg max-w-none mb-12">
-            <div 
-              dangerouslySetInnerHTML={{ __html: post.content }}
-              className="text-foreground"
-            />
-          </div>
-
-          {/* Related Posts */}
-          {relatedPosts.length > 0 && (
-            <section className="mt-16">
-              <h2 className="text-2xl font-bold text-foreground mb-8">Related Posts</h2>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {relatedPosts.map((relatedPost) => (
-                  <Link
-                    key={relatedPost.id}
-                    href={`/${locale}/blog/${relatedPost.slug}`}
-                    className="group block"
-                  >
-                    <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-                      <Image
-                        src={relatedPost.image}
-                        alt={relatedPost.title}
-                        width={300}
-                        height={200}
-                        className="w-full h-32 object-cover rounded-lg mb-4 group-hover:scale-105 transition-transform duration-300"
-                      />
-                      <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2 mb-2">
-                        {relatedPost.title}
-                      </h3>
-                      <p className="text-sm text-muted-foreground line-clamp-2">
-                        {relatedPost.excerpt}
-                      </p>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </section>
+          {/* Tags */}
+          {post.tags.length > 0 && (
+            <div className="flex flex-wrap gap-2">
+              {post.tags.map((tag, index) => (
+                <Badge key={index} variant="outline" className="text-sm">
+                  <Tag className="w-3 h-3 mr-1" />
+                  {tag}
+                </Badge>
+              ))}
+            </div>
           )}
+        </header>
+
+        {/* Featured Image */}
+        <div className="mb-12">
+          <Image
+            src={post.image}
+            alt={post.title}
+            width={800}
+            height={400}
+            className="w-full h-64 md:h-96 object-cover rounded-2xl shadow-lg"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="prose prose-lg max-w-none mb-12">
+          <div 
+            dangerouslySetInnerHTML={{ __html: post.content }}
+            className="text-foreground"
+          />
+        </div>
+
+        {/* Related Posts */}
+        {relatedPosts.length > 0 && (
+          <section className="mt-16">
+              <h2 className="text-2xl font-bold text-foreground mb-8">Related Posts</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {relatedPosts.map((relatedPost) => (
+                                 <Link
+                   key={relatedPost.id}
+                    href={`/${locale}/blog/${relatedPost.slug}`}
+                   className="group block"
+                 >
+                  <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+                    <Image
+                      src={relatedPost.image}
+                      alt={relatedPost.title}
+                      width={300}
+                      height={200}
+                      className="w-full h-32 object-cover rounded-lg mb-4 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors line-clamp-2 mb-2">
+                      {relatedPost.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground line-clamp-2">
+                      {relatedPost.excerpt}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
         </article>
       </div>
     </main>
