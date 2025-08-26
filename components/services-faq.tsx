@@ -66,12 +66,18 @@ export function ServicesFAQ() {
             Our friendly team is here to help. Contact us for personalized answers about your dental care needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild>
-              <Link href="/contact">Contact Us</Link>
-            </Button>
-            <Button variant="outline" asChild>
-              <Link href="/appointment">Schedule Consultation</Link>
-            </Button>
+            <Link 
+              href="/contact"
+              className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200 rounded-md"
+            >
+              Contact Us
+            </Link>
+            <Link 
+              href="/appointment"
+              className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium border border-input bg-background hover:bg-accent hover:text-accent-foreground transition-colors duration-200 rounded-md"
+            >
+              Schedule Consultation
+            </Link>
           </div>
         </div>
       </div>
