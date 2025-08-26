@@ -1,3 +1,19 @@
+# My Medical Site
+
+A modern medical website built with Next.js, featuring multilingual support and professional design.
+
+## Features
+
+- 🌍 Multilingual support (English, French, Italian)
+- 🎨 Modern, responsive design
+- 📱 Mobile-first approach
+- ⚡ Fast performance with Next.js
+- 🏥 Medical-focused content and services
+
+## Deployment
+
+This project is configured for deployment on Vercel with React 18 compatibility.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

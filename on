@@ -1,0 +1,3 @@
+[33m59a8751[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Add .npmrc to handle dependency resolution
+[33me563318[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Remove vaul dependency to fix React 19 compatibility
+[33m2646279[m Fix deployment issues and prepare for Vercel deployment
