@@ -58,11 +58,9 @@ export function LanguageSwitcher() {
 
   return (
     <DropdownMenu open={isOpen} onOpenChange={setIsOpen}>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="sm" className="gap-2 hover:bg-accent">
-          <span className="text-lg">{languageFlags[currentLanguage]}</span>
-          <span className="hidden sm:inline">{languageNames[currentLanguage]}</span>
-        </Button>
+      <DropdownMenuTrigger className="inline-flex items-center justify-center gap-2 px-3 py-2 text-sm font-medium rounded-md hover:bg-accent hover:text-accent-foreground transition-colors duration-200">
+        <span className="text-lg">{languageFlags[currentLanguage]}</span>
+        <span className="hidden sm:inline">{languageNames[currentLanguage]}</span>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-48">
         {locales.map((lang) => (
