@@ -5,6 +5,15 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 import { I18nProvider } from "@/components/i18n-provider"
 
+// Generate static params for static export
+export async function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'fr' },
+    { locale: 'it' }
+  ]
+}
+
 export default async function LocaleLayout({
   children,
   params,
