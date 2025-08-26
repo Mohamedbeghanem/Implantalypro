@@ -77,9 +77,12 @@ export function Navigation() {
                 <span className="text-sm font-medium">(555) 123-4567</span>
               </div>
               <div>
-                <Button asChild>
-                  <Link href={`/${currentLanguage}/appointment`}>{t('navigation.bookNow')}</Link>
-                </Button>
+                <Link 
+                  href={`/${currentLanguage}/appointment`}
+                  className="inline-flex items-center justify-center px-4 py-2 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200 rounded-md"
+                >
+                  {t('navigation.bookNow')}
+                </Link>
               </div>
             </div>
 
@@ -150,11 +153,13 @@ export function Navigation() {
                   <Phone className="w-4 h-4" />
                   <span className="text-sm font-medium">(555) 123-4567</span>
                 </div>
-                <Button asChild className="w-full">
-                  <Link href={`/${currentLanguage}/appointment`} onClick={() => setIsOpen(false)}>
-                    {t('navigation.bookNow')}
-                  </Link>
-                </Button>
+                <Link 
+                  href={`/${currentLanguage}/appointment`} 
+                  onClick={() => setIsOpen(false)}
+                  className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-200 rounded-md"
+                >
+                  {t('navigation.bookNow')}
+                </Link>
               </div>
             </div>
           </div>
