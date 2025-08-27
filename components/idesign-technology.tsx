@@ -1,11 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Box, Eye, Monitor, Smartphone, Zap, Globe } from "lucide-react"
 
-interface IDesignTechnologyProps {
-  locale: string
-}
-
-export function IDesignTechnology({ locale }: IDesignTechnologyProps) {
+export function IDesignTechnology() {
   const technologies = [
     {
       icon: Box,

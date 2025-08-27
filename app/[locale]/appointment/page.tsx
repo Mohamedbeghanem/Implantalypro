@@ -1,6 +1,10 @@
+"use client"
+
 import { AppointmentHero } from "@/components/appointment-hero"
 import { AppointmentForm } from "@/components/appointment-form"
 import { AppointmentInfo } from "@/components/appointment-info"
+
+export const dynamic = 'force-dynamic'
 
 export default function AppointmentPage() {
   return (

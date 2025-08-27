@@ -1,11 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Search, Eye, Palette, CheckCircle } from "lucide-react"
 
-interface IDesignProcessProps {
-  locale: string
-}
-
-export function IDesignProcess({ locale }: IDesignProcessProps) {
+export function IDesignProcess() {
   const steps = [
     {
       icon: Search,

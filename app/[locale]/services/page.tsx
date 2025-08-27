@@ -1,7 +1,11 @@
+"use client"
+
 import { ServicesHero } from "@/components/services-hero"
 import { ServiceCategories } from "@/components/service-categories"
 import { TreatmentDetails } from "@/components/treatment-details"
 import { ServicesFAQ } from "@/components/services-faq"
+
+export const dynamic = 'force-dynamic'
 
 export default function ServicesPage() {
   return (

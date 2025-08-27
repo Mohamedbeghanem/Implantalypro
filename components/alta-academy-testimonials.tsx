@@ -1,11 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Star } from "lucide-react"
 
-interface AltaAcademyTestimonialsProps {
-  locale: string
-}
-
-export function AltaAcademyTestimonials({ locale }: AltaAcademyTestimonialsProps) {
+export function AltaAcademyTestimonials() {
   const testimonials = [
     {
       name: "Dr. Sarah Johnson",

@@ -3,11 +3,9 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { useLocale } from 'next-intl'
 
-interface IDesignPortfolioProps {
-  locale: string
-}
-
-export function IDesignPortfolio({ locale }: IDesignPortfolioProps) {
+export function IDesignPortfolio() {
+  const locale = useLocale()
+  
   const portfolioItems = [
     {
       title: "Full Arch Implant Design",

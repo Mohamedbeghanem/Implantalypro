@@ -10,6 +10,9 @@ interface HomePageProps {
 }
 
 export default async function HomePage({ params }: HomePageProps) {
+  // Await the params Promise
+  await params
+
   return (
     <main className="min-h-screen">
       {/* Hero Section */}

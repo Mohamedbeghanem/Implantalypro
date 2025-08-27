@@ -1,11 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { GraduationCap, Users, BookOpen, Award } from "lucide-react"
 
-interface AltaAcademyStatsProps {
-  locale: string
-}
-
-export function AltaAcademyStats({ locale }: AltaAcademyStatsProps) {
+export function AltaAcademyStats() {
   const stats = [
     {
       icon: GraduationCap,

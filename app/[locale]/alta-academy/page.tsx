@@ -1,16 +1,14 @@
+"use client"
+
 import { AltaAcademyHero } from "@/components/alta-academy-hero"
 import { AltaAcademyCourses } from "@/components/alta-academy-courses"
 import { AltaAcademyFeatures } from "@/components/alta-academy-features"
 import { AltaAcademyTestimonials } from "@/components/alta-academy-testimonials"
 import { AltaAcademyStats } from "@/components/alta-academy-stats"
 
-interface AltaAcademyPageProps {
-  params: Promise<{ locale: string }>
-}
+export const dynamic = 'force-dynamic'
 
-export default async function AltaAcademyPage({ params }: AltaAcademyPageProps) {
-  const { locale } = await params
-
+export default function AltaAcademyPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
@@ -20,13 +18,13 @@ export default async function AltaAcademyPage({ params }: AltaAcademyPageProps) 
       <AltaAcademyCourses />
       
       {/* Features Section */}
-      <AltaAcademyFeatures locale={locale} />
+      <AltaAcademyFeatures />
       
       {/* Statistics Section */}
-      <AltaAcademyStats locale={locale} />
+      <AltaAcademyStats />
       
       {/* Testimonials Section */}
-      <AltaAcademyTestimonials locale={locale} />
+      <AltaAcademyTestimonials />
     </main>
   )
 }

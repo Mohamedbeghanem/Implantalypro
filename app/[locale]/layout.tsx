@@ -3,15 +3,6 @@ import { setRequestLocale } from 'next-intl/server'
 import { ClientProviders } from "@/components/client-providers"
 import { ClientLayout } from "@/components/client-layout"
 
-// Generate static params for static export
-export async function generateStaticParams() {
-  return [
-    { locale: 'en' },
-    { locale: 'fr' },
-    { locale: 'it' }
-  ]
-}
-
 export default function LocaleLayout({
   children,
   params,

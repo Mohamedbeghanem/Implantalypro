@@ -1,16 +1,14 @@
+"use client"
+
 import { IDesignHero } from "@/components/idesign-hero"
 import { IDesignServices } from "@/components/idesign-services"
 import { IDesignPortfolio } from "@/components/idesign-portfolio"
 import { IDesignTechnology } from "@/components/idesign-technology"
 import { IDesignProcess } from "@/components/idesign-process"
 
-interface IDesignPageProps {
-  params: Promise<{ locale: string }>
-}
+export const dynamic = 'force-dynamic'
 
-export default async function IDesignPage({ params }: IDesignPageProps) {
-  const { locale } = await params
-
+export default function IDesignPage() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
@@ -20,13 +18,13 @@ export default async function IDesignPage({ params }: IDesignPageProps) {
       <IDesignServices />
       
       {/* Technology Section */}
-      <IDesignTechnology locale={locale} />
+      <IDesignTechnology />
       
       {/* Process Section */}
-      <IDesignProcess locale={locale} />
+      <IDesignProcess />
       
       {/* Portfolio Section */}
-      <IDesignPortfolio locale={locale} />
+      <IDesignPortfolio />
     </main>
   )
 }
