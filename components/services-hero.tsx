@@ -4,16 +4,18 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslation } from 'react-i18next'
+import { useParams } from 'next/navigation'
 
 export function ServicesHero() {
-  const t = useTranslations('services')
-  const locale = useLocale()
+  const { t } = useTranslation()
+  const params = useParams()
+  const locale = params?.locale || 'en'
   const benefits = [
-    t('benefits.latestTechnology'),
-    t('benefits.experiencedProfessionals'),
-    t('benefits.comfortableEnvironment'),
-    t('benefits.flexiblePayment'),
+    t('services.benefits.latestTechnology'),
+    t('services.benefits.experiencedProfessionals'),
+    t('services.benefits.comfortableEnvironment'),
+    t('services.benefits.flexiblePayment'),
   ]
 
   return (
@@ -24,13 +26,13 @@ export function ServicesHero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <Badge variant="secondary" className="w-fit">
-                {t('subtitle')}
+                {t('services.subtitle')}
               </Badge>
               <h1 className="font-heading font-bold text-4xl lg:text-5xl text-foreground leading-tight">
-                {t('title')}
+                {t('services.title')}
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                {t('description')}
+                {t('services.description')}
               </p>
             </div>
 
@@ -46,10 +48,10 @@ export function ServicesHero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <Link href={`/${locale}/appointment`}>{t('actions.scheduleConsultation')}</Link>
+                <Link href={`/${locale}/appointment`}>{t('services.actions.scheduleConsultation')}</Link>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <Link href={`/${locale}/contact`}>{t('actions.askQuestions')}</Link>
+                <Link href={`/${locale}/contact`}>{t('services.actions.askQuestions')}</Link>
               </Button>
             </div>
           </div>

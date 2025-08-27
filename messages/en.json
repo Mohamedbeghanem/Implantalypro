@@ -156,7 +156,11 @@
   "footer": {
     "copyright": "© 2024 Implantaly Group. All rights reserved.",
     "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+    "terms": "Terms of Service",
+    "description": "Leading dental implant specialists providing state-of-the-art technology and compassionate care to help you achieve your perfect smile.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Info"
   },
   "common": {
     "loading": "Loading...",

@@ -14,43 +14,43 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { CalendarIcon, Clock, Phone, Mail, MapPin } from "lucide-react"
 import { format } from "date-fns"
 import { cn } from "@/lib/utils"
-import { useTranslations } from 'next-intl'
+import { useTranslations } from '@/hooks/use-translations'
 
 export function AppointmentForm() {
-  const t = useTranslations('appointments')
+  const { t } = useTranslations()
   const [date, setDate] = useState<Date>()
   const [selectedTime, setSelectedTime] = useState("")
   const [appointmentType, setAppointmentType] = useState("")
   const [isNewPatient, setIsNewPatient] = useState(false)
 
   const timeSlots = [
-    t('timeSlots.9am'),
-    t('timeSlots.930am'),
-    t('timeSlots.10am'),
-    t('timeSlots.1030am'),
-    t('timeSlots.11am'),
-    t('timeSlots.1130am'),
-    t('timeSlots.1pm'),
-    t('timeSlots.130pm'),
-    t('timeSlots.2pm'),
-    t('timeSlots.230pm'),
-    t('timeSlots.3pm'),
-    t('timeSlots.330pm'),
-    t('timeSlots.4pm'),
-    t('timeSlots.430pm'),
+    t('appointments.timeSlots.9am'),
+    t('appointments.timeSlots.930am'),
+    t('appointments.timeSlots.10am'),
+    t('appointments.timeSlots.1030am'),
+    t('appointments.timeSlots.11am'),
+    t('appointments.timeSlots.1130am'),
+    t('appointments.timeSlots.1pm'),
+    t('appointments.timeSlots.130pm'),
+    t('appointments.timeSlots.2pm'),
+    t('appointments.timeSlots.230pm'),
+    t('appointments.timeSlots.3pm'),
+    t('appointments.timeSlots.330pm'),
+    t('appointments.timeSlots.4pm'),
+    t('appointments.timeSlots.430pm'),
   ]
 
   const services = [
-    t('services.routineCleaning'),
-    t('services.dentalExam'),
-    t('services.teethWhitening'),
-    t('services.filling'),
-    t('services.crownBridge'),
-    t('services.rootCanal'),
-    t('services.dentalImplant'),
-    t('services.orthodonticConsultation'),
-    t('services.emergencyVisit'),
-    t('services.other'),
+    t('appointments.services.routineCleaning'),
+    t('appointments.services.dentalExam'),
+    t('appointments.services.teethWhitening'),
+    t('appointments.services.filling'),
+    t('appointments.services.crownBridge'),
+    t('appointments.services.rootCanal'),
+    t('appointments.services.dentalImplant'),
+    t('appointments.services.orthodonticConsultation'),
+    t('appointments.services.emergencyVisit'),
+    t('appointments.services.other'),
   ]
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -62,8 +62,8 @@ export function AppointmentForm() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="font-heading text-2xl">{t('title')}</CardTitle>
-        <CardDescription>{t('subtitle')}</CardDescription>
+        <CardTitle className="font-heading text-2xl">{t('appointments.title')}</CardTitle>
+        <CardDescription>{t('appointments.subtitle')}</CardDescription>
       </CardHeader>
       <CardContent>
         <form onSubmit={handleSubmit} className="space-y-6">
@@ -76,11 +76,11 @@ export function AppointmentForm() {
             >
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="new" id="new" />
-                <Label htmlFor="new">{t('form.newPatient')}</Label>
+                <Label htmlFor="new">{t('appointments.form.newPatient')}</Label>
               </div>
               <div className="flex items-center space-x-2">
                 <RadioGroupItem value="existing" id="existing" />
-                <Label htmlFor="existing">{t('form.existingPatient')}</Label>
+                <Label htmlFor="existing">{t('appointments.form.existingPatient')}</Label>
               </div>
             </RadioGroup>
           </div>
@@ -149,7 +149,7 @@ export function AppointmentForm() {
 
           {/* Service Selection */}
           <div className="space-y-2">
-            <Label htmlFor="service">{t('form.service')} *</Label>
+            <Label htmlFor="service">{t('appointments.form.service')} *</Label>
             <Select value={appointmentType} onValueChange={setAppointmentType}>
               <SelectTrigger>
                 <SelectValue placeholder="Select the type of service you need" />
@@ -167,18 +167,18 @@ export function AppointmentForm() {
           {/* Insurance Information */}
           <div className="grid md:grid-cols-2 gap-4">
             <div className="space-y-2">
-              <Label htmlFor="insurance">{t('form.insuranceProvider')}</Label>
+              <Label htmlFor="insurance">{t('appointments.form.insuranceProvider')}</Label>
               <Input id="insurance" placeholder="e.g., Delta Dental, Aetna" />
             </div>
             <div className="space-y-2">
-              <Label htmlFor="memberId">{t('form.memberId')}</Label>
+              <Label htmlFor="memberId">{t('appointments.form.memberId')}</Label>
               <Input id="memberId" placeholder="Insurance member ID" />
             </div>
           </div>
 
           {/* Additional Information */}
           <div className="space-y-2">
-            <Label htmlFor="notes">{t('form.additionalNotes')}</Label>
+            <Label htmlFor="notes">{t('appointments.form.additionalNotes')}</Label>
             <Textarea
               id="notes"
               placeholder="Please describe any specific concerns, symptoms, or special requests..."
@@ -189,14 +189,14 @@ export function AppointmentForm() {
           {/* Emergency Contact */}
           {isNewPatient && (
             <div className="space-y-4 p-4 bg-muted/50 rounded-lg">
-              <h3 className="font-semibold text-foreground">{t('form.emergencyContact')} (New Patients)</h3>
+              <h3 className="font-semibold text-foreground">{t('appointments.form.emergencyContact')} (New Patients)</h3>
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <Label htmlFor="emergencyName">{t('form.emergencyContactName')}</Label>
+                  <Label htmlFor="emergencyName">{t('appointments.form.emergencyContactName')}</Label>
                   <Input id="emergencyName" placeholder="Emergency contact name" />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="emergencyPhone">{t('form.emergencyContactPhone')}</Label>
+                  <Label htmlFor="emergencyPhone">{t('appointments.form.emergencyContactPhone')}</Label>
                   <Input id="emergencyPhone" type="tel" placeholder="Emergency contact phone" />
                 </div>
               </div>

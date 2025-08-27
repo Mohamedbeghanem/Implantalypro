@@ -1,0 +1,11 @@
+warning: in the working copy of 'components/about-hero.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/alta-academy-hero.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/idesign-hero.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/services-hero.tsx', LF will be replaced by CRLF the next time Git touches it
+components/about-hero.tsx
+components/alta-academy-hero.tsx
+components/appointment-form.tsx
+components/blog-hero.tsx
+components/idesign-hero.tsx
+components/services-hero.tsx
+messages/en.json

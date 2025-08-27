@@ -4,12 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Box, Eye, Palette, Zap } from "lucide-react"
 import Link from "next/link"
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from '@/hooks/use-translations'
 import { useMemo } from 'react'
 
 export function IDesignHero() {
-  const t = useTranslations('idesign')
-  const locale = useLocale()
+  const { t, currentLanguage: locale } = useTranslations()
   
   const features = useMemo(() => [
     {
@@ -55,19 +54,19 @@ export function IDesignHero() {
               IDesign - 3D Dental Design Division
             </div>
             <h1 className="font-heading font-bold text-5xl lg:text-7xl text-foreground leading-tight gradient-text fade-in">
-              {t('title')}
+              {t('idesign.title')}
             </h1>
             <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto slide-up">
-              {t('subtitle')}
+              {t('idesign.subtitle')}
             </p>
             
                          {/* Enhanced CTA Buttons */}
              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 slide-up" style={{ animationDelay: '0.3s' }}>
                <Button size="lg" asChild className="bg-gradient-to-r from-blue-600 to-sky-700 hover:from-blue-700 hover:to-sky-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
-                 <Link href={`/${locale}/idesign/portfolio`}>{t('cta')}</Link>
+                 <Link href={`/${locale}/idesign/portfolio`}>{t('idesign.cta')}</Link>
                </Button>
                <Button variant="outline" size="lg" asChild className="border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
-                 <Link href={`/${locale}/idesign/contact`}>{t('learnMore')}</Link>
+                 <Link href={`/${locale}/idesign/contact`}>{t('idesign.learnMore')}</Link>
                </Button>
              </div>
 
@@ -75,11 +74,11 @@ export function IDesignHero() {
              <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 pt-8 text-sm text-muted-foreground slide-up" style={{ animationDelay: '0.6s' }}>
                <div className="flex items-center space-x-3">
                  <div className="w-3 h-3 bg-blue-500 rounded-full pulse-glow"></div>
-                 <span className="font-medium">{t('status.3dVisualization')}</span>
+                 <span className="font-medium">{t('idesign.status.3dVisualization')}</span>
                </div>
                <div className="flex items-center space-x-3">
                  <div className="w-3 h-3 bg-sky-500 rounded-full pulse-glow" style={{ animationDelay: '1s' }}></div>
-                 <span className="font-medium">{t('status.vrExperience')}</span>
+                 <span className="font-medium">{t('idesign.status.vrExperience')}</span>
                </div>
              </div>
           </div>
@@ -101,12 +100,12 @@ export function IDesignHero() {
                 <div className="flex items-center space-x-8">
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">1000+</div>
-                    <div className="text-sm text-muted-foreground font-medium">{t('stats.designsCreated')}</div>
+                    <div className="text-sm text-muted-foreground font-medium">{t('idesign.stats.designsCreated')}</div>
                   </div>
                   <div className="w-px h-12 bg-border"></div>
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">99%</div>
-                    <div className="text-sm text-muted-foreground font-medium">{t('stats.accuracyRate')}</div>
+                    <div className="text-sm text-muted-foreground font-medium">{t('idesign.stats.accuracyRate')}</div>
                   </div>
                 </div>
               </Card>

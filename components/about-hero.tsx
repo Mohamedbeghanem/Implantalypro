@@ -2,30 +2,30 @@
 
 import { Card } from "@/components/ui/card"
 import { Award, Users, Clock, MapPin } from "lucide-react"
-import { useTranslations } from 'next-intl'
+import { useTranslations } from '@/hooks/use-translations'
 
 export function AboutHero() {
-  const t = useTranslations('about')
+  const { t } = useTranslations()
   const stats = [
     {
       icon: Users,
       number: "5000+",
-      label: t('stats.happyPatients'),
+      label: t('about.stats.happyPatients'),
     },
     {
       icon: Clock,
       number: "20+",
-      label: t('stats.yearsExperience'),
+      label: t('about.stats.yearsExperience'),
     },
     {
       icon: Award,
       number: "15+",
-      label: t('stats.awardsWon'),
+      label: t('about.stats.awardsWon'),
     },
     {
       icon: MapPin,
       number: "3",
-      label: t('stats.locations'),
+      label: t('about.stats.locations'),
     },
   ]
 
@@ -37,13 +37,13 @@ export function AboutHero() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="font-heading font-bold text-4xl lg:text-5xl text-foreground leading-tight">
-                {t('title')}
+                {t('about.title')}
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                {t('subtitle')}
+                {t('about.subtitle')}
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                {t('description')}
+                {t('about.description')}
               </p>
             </div>
           </div>

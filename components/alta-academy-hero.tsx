@@ -4,12 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { GraduationCap, Users, BookOpen, Award } from "lucide-react"
 import Link from "next/link"
-import { useTranslations, useLocale } from 'next-intl'
+import { useTranslations } from '@/hooks/use-translations'
 import { useMemo } from 'react'
 
 export function AltaAcademyHero() {
-  const t = useTranslations('altaAcademy')
-  const locale = useLocale()
+  const { t, currentLanguage: locale } = useTranslations()
   
   const features = useMemo(() => [
     {
@@ -55,19 +54,19 @@ export function AltaAcademyHero() {
               Alta Academy - Dental Education Division
             </div>
             <h1 className="font-heading font-bold text-5xl lg:text-7xl text-foreground leading-tight gradient-text fade-in">
-              {t('title')}
+              {t('altaAcademy.title')}
             </h1>
             <p className="text-xl lg:text-2xl text-muted-foreground leading-relaxed max-w-3xl mx-auto slide-up">
-              {t('subtitle')}
+              {t('altaAcademy.subtitle')}
             </p>
             
                          {/* Enhanced CTA Buttons */}
              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 slide-up" style={{ animationDelay: '0.3s' }}>
                <Button size="lg" asChild className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
-                 <Link href={`/${locale}/alta-academy/courses`}>{t('cta')}</Link>
-               </Button>
-               <Button variant="outline" size="lg" asChild className="border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
-                 <Link href={`/${locale}/alta-academy/contact`}>{t('learnMore')}</Link>
+                                  <Link href={`/${locale}/alta-academy/courses`}>{t('altaAcademy.cta')}</Link>
+              </Button>
+              <Button variant="outline" size="lg" asChild className="border-2 hover:bg-primary hover:text-primary-foreground transition-all duration-300 transform hover:scale-105 px-8 py-3 text-lg">
+                 <Link href={`/${locale}/alta-academy/contact`}>{t('altaAcademy.learnMore')}</Link>
                </Button>
              </div>
 
@@ -75,11 +74,11 @@ export function AltaAcademyHero() {
              <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 pt-8 text-sm text-muted-foreground slide-up" style={{ animationDelay: '0.6s' }}>
                <div className="flex items-center space-x-3">
                  <div className="w-3 h-3 bg-green-500 rounded-full pulse-glow"></div>
-                 <span className="font-medium">{t('status.liveClasses')}</span>
+                 <span className="font-medium">{t('altaAcademy.status.liveClasses')}</span>
                </div>
                <div className="flex items-center space-x-3">
                  <div className="w-3 h-3 bg-red-500 rounded-full pulse-glow" style={{ animationDelay: '1s' }}></div>
-                 <span className="font-medium">{t('status.ceCredits')}</span>
+                 <span className="font-medium">{t('altaAcademy.status.ceCredits')}</span>
                </div>
              </div>
           </div>
@@ -101,12 +100,12 @@ export function AltaAcademyHero() {
                 <div className="flex items-center space-x-8">
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">500+</div>
-                    <div className="text-sm text-muted-foreground font-medium">{t('stats.graduates')}</div>
+                    <div className="text-sm text-muted-foreground font-medium">{t('altaAcademy.stats.graduates')}</div>
                   </div>
                   <div className="w-px h-12 bg-border"></div>
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">50+</div>
-                    <div className="text-sm text-muted-foreground font-medium">{t('stats.courses')}</div>
+                    <div className="text-sm text-muted-foreground font-medium">{t('altaAcademy.stats.courses')}</div>
                   </div>
                 </div>
               </Card>

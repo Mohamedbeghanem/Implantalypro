@@ -1,11 +1,11 @@
 "use client"
 
 import { Badge } from "@/components/ui/badge"
-import { useTranslations } from 'next-intl'
+import { useTranslations } from '@/hooks/use-translations'
 import { BookOpen } from 'lucide-react'
 
 export function BlogHero() {
-  const t = useTranslations('blog')
+  const { t } = useTranslations()
 
   return (
     <section className="relative py-20 bg-gradient-to-br from-blue-50 via-white to-green-50 overflow-hidden">
@@ -29,10 +29,10 @@ export function BlogHero() {
           {/* Title */}
           <div className="space-y-4 fade-in-up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground">
-              {t('title')}
+              {t('blog.title')}
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              {t('subtitle')}
+              {t('blog.subtitle')}
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export function BlogHero() {
             <div className="relative">
               <input
                 type="text"
-                placeholder={t('search')}
+                placeholder={t('blog.search')}
                 className="w-full px-6 py-4 bg-white/80 backdrop-blur-sm border border-border rounded-2xl shadow-lg focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-300"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
