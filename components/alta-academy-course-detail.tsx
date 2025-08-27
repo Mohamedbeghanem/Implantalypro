@@ -150,7 +150,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
     }
   }
 
-  const course = courseData[courseId as keyof typeof courseData]
+  const course = courseData[courseId as '1' | '2' | '3']
 
   if (!course) {
     return (

@@ -2,7 +2,6 @@
 
 import { useState, useMemo, useEffect } from "react"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Menu, X, Phone, Home, User, Stethoscope, Mail, Clock, MapPin } from "lucide-react"
 import { useTranslations } from '@/hooks/use-translations'
 import { useRouter, usePathname } from 'next/navigation'

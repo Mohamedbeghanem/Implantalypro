@@ -26,17 +26,13 @@ export default async function RootLayout({
   params,
 }: {
   children: React.ReactNode
-  params?: Promise<{ locale?: string }> | { locale?: string }
+  params?: Promise<{ locale?: string }>
 }) {
   let locale = 'en'
   
   if (params) {
-    if (params instanceof Promise) {
-      const resolvedParams = await params
-      locale = resolvedParams?.locale || 'en'
-    } else {
-      locale = params?.locale || 'en'
-    }
+    const resolvedParams = await params
+    locale = resolvedParams?.locale || 'en'
   }
 
   return (

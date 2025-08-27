@@ -1,22 +1,40 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  // Remove static export for Vercel deployment
+  // output: 'export',
+  // trailingSlash: true,
+  
+  // Enable React strict mode for better development
+  reactStrictMode: true,
+  
+  // ESLint configuration
   eslint: {
-    ignoreDuringBuilds: true,
+    // Don't ignore during builds - let's fix the issues
+    ignoreDuringBuilds: false,
   },
+  
+  // TypeScript configuration
   typescript: {
-    ignoreBuildErrors: true,
+    // Don't ignore build errors - let's fix them
+    ignoreBuildErrors: false,
   },
+  
+  // Image optimization for Vercel
   images: {
-    unoptimized: true,
+    // Enable image optimization
+    unoptimized: false,
+    // Configure domains if needed
+    domains: [],
   },
+  
   // Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
   },
+  
   // Optimize for production
   compress: true,
+  
   // Reduce memory usage
   poweredByHeader: false,
 }

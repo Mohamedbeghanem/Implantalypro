@@ -38,7 +38,7 @@ export function LanguageSwitcher() {
     let pathWithoutLocale = pathname;
     
     // Remove the current locale from the pathname if it exists
-    if (currentLanguage && pathname.startsWith(`/${currentLanguage}`)) {
+    if (currentLanguage && pathname && pathname.startsWith(`/${currentLanguage}`)) {
       pathWithoutLocale = pathname.replace(`/${currentLanguage}`, '') || '/';
     }
     
