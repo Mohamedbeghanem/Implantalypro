@@ -1,3 +1,5 @@
+"use client"
+
 import { Card } from "@/components/ui/card"
 import { Award, Users, Clock, MapPin } from "lucide-react"
 import { useTranslations } from 'next-intl'
