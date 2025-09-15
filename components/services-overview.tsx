@@ -62,7 +62,7 @@ export function ServicesOverview() {
               className="fade-in-up"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <Card className="group glass h-full hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0">
+              <Card className="group bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg h-full hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 border-gray-200/50 dark:border-gray-700/50">
                 <CardHeader className="text-center pb-6">
                   <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-500 transform group-hover:scale-110">
                     <service.icon className="w-10 h-10" />

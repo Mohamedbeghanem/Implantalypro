@@ -207,7 +207,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
             </div>
 
                          {/* Enrollment Card */}
-             <Card className="p-6 h-fit border-0 glass">
+             <Card className="p-6 h-fit border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
                <div className="text-center mb-6">
                  <h3 className="text-xl font-bold text-blue-600 mb-2">Professional Course</h3>
                  <p className="text-muted-foreground">Contact us for pricing</p>
@@ -242,7 +242,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             {/* Course Image */}
-            <Card className="overflow-hidden border-0 glass">
+            <Card className="overflow-hidden border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <img
                 src={course.image}
                 alt={course.title}
@@ -251,7 +251,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
             </Card>
 
             {/* Curriculum */}
-            <Card className="p-6 border-0 glass">
+            <Card className="p-6 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <h2 className="font-heading font-bold text-2xl mb-6 text-foreground">
                 Course Curriculum
               </h2>
@@ -273,7 +273,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
             </Card>
 
             {/* Requirements */}
-            <Card className="p-6 border-0 glass">
+            <Card className="p-6 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <h2 className="font-heading font-bold text-2xl mb-6 text-foreground">
                 Requirements
               </h2>
@@ -291,7 +291,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Features */}
-            <Card className="p-6 border-0 glass">
+            <Card className="p-6 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <h3 className="font-heading font-bold text-xl mb-4 text-foreground">
                 What's Included
               </h3>
@@ -306,7 +306,7 @@ export function AltaAcademyCourseDetail({ courseId }: AltaAcademyCourseDetailPro
             </Card>
 
             {/* Instructor */}
-            <Card className="p-6 border-0 glass">
+            <Card className="p-6 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <h3 className="font-heading font-bold text-xl mb-4 text-foreground">
                 Meet Your Instructor
               </h3>

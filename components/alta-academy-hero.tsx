@@ -96,7 +96,7 @@ export function AltaAcademyHero() {
             </div>
             {/* Enhanced Floating Stats Card */}
             <div className="scale-in" style={{ animationDelay: '1s' }}>
-              <Card className="absolute -bottom-8 -left-8 p-8 glass shadow-2xl border-0">
+              <Card className="absolute -bottom-8 -left-8 p-8 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl shadow-2xl border-0 border-gray-200/50 dark:border-gray-700/50">
                 <div className="flex items-center space-x-8">
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">500+</div>
@@ -122,7 +122,7 @@ export function AltaAcademyHero() {
                 className="fade-in-up"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
-                                 <Card className="p-8 text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 glass">
+                                 <Card className="p-8 text-center hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
                    <div className="w-20 h-20 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-green-500 group-hover:text-white transition-all duration-500 transform group-hover:scale-110">
                      <feature.icon className="w-10 h-10" />
                    </div>

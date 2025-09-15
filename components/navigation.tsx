@@ -37,7 +37,7 @@ export function Navigation() {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 glass border-b border-border slide-down">
+      <nav className="sticky top-0 z-50 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl border-b border-gray-200/50 dark:border-gray-700/50 shadow-lg slide-down">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
@@ -108,7 +108,7 @@ export function Navigation() {
           />
           
           {/* Menu Content */}
-          <div className="absolute top-0 right-0 w-80 h-full bg-white dark:bg-gray-900 shadow-2xl transform transition-transform duration-300 slide-in-right">
+          <div className="absolute top-0 right-0 w-80 h-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-2xl transform transition-transform duration-300 slide-in-right border-l border-gray-200/50 dark:border-gray-700/50">
             <div className="flex flex-col h-full">
               {/* Header */}
               <div className="flex items-center justify-between p-6 border-b border-border">

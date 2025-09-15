@@ -74,7 +74,7 @@ export function AltaAcademyContact() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <Card className="p-8 border-0 glass">
+          <Card className="p-8 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
             <h2 className="font-heading font-bold text-3xl mb-6 text-foreground">
               Send us a Message
             </h2>

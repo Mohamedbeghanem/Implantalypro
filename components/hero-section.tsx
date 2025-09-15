@@ -92,7 +92,7 @@ export function HeroSection() {
             </div>
             {/* Enhanced Floating Stats Card */}
             <div className="scale-in" style={{ animationDelay: '1s' }}>
-              <Card className="absolute -bottom-8 -left-8 p-8 glass shadow-2xl border-0">
+              <Card className="absolute -bottom-8 -left-8 p-8 bg-white/90 dark:bg-gray-900/90 backdrop-blur-xl shadow-2xl border-0 border-gray-200/50 dark:border-gray-700/50">
                 <div className="flex items-center space-x-8">
                   <div className="text-center">
                     <div className="font-heading font-bold text-3xl text-foreground">10000+</div>
@@ -117,7 +117,7 @@ export function HeroSection() {
               className="fade-in-up group"
               style={{ animationDelay: `${(index + 1) * 0.2}s` }}
             >
-              <Card className="p-6 text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border-0 glass">
+              <Card className="p-6 text-center hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
                 <div className="w-12 h-12 mx-auto mb-4 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
                   <feature.icon className="w-6 h-6 text-primary" />
                 </div>

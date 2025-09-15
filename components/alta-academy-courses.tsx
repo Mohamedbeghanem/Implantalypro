@@ -79,7 +79,7 @@ export function AltaAcademyCourses() {
         {/* Course Grid */}
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
           {courses.map((course) => (
-            <Card key={course.id} className="overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 glass">
+            <Card key={course.id} className="overflow-hidden hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 border-0 bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg border-gray-200/50 dark:border-gray-700/50">
               <div className="aspect-video overflow-hidden">
                 <img
                   src={course.image}
