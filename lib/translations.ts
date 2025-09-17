@@ -87,6 +87,49 @@ export const translations = {
         tips: "Care Tips"
       }
     },
+    appointments: {
+      title: "Book an Appointment",
+      subtitle: "Choose your preferred date, time, and service",
+      timeSlots: {
+        "9am": "9:00 AM",
+        "930am": "9:30 AM",
+        "10am": "10:00 AM",
+        "1030am": "10:30 AM",
+        "11am": "11:00 AM",
+        "1130am": "11:30 AM",
+        "1pm": "1:00 PM",
+        "130pm": "1:30 PM",
+        "2pm": "2:00 PM",
+        "230pm": "2:30 PM",
+        "3pm": "3:00 PM",
+        "330pm": "3:30 PM",
+        "4pm": "4:00 PM",
+        "430pm": "4:30 PM"
+      },
+      services: {
+        routineCleaning: "Routine Cleaning",
+        dentalExam: "Dental Exam",
+        teethWhitening: "Teeth Whitening",
+        filling: "Filling",
+        crownBridge: "Crown/Bridge",
+        rootCanal: "Root Canal",
+        dentalImplant: "Dental Implant",
+        orthodonticConsultation: "Orthodontic Consultation",
+        emergencyVisit: "Emergency Visit",
+        other: "Other"
+      },
+      form: {
+        newPatient: "New Patient",
+        existingPatient: "Existing Patient",
+        service: "Service",
+        insuranceProvider: "Insurance Provider",
+        memberId: "Member ID",
+        additionalNotes: "Additional Notes",
+        emergencyContact: "Emergency Contact",
+        emergencyContactName: "Emergency Contact Name",
+        emergencyContactPhone: "Emergency Contact Phone"
+      }
+    },
     footer: {
       description: "Leading dental implant specialists providing advanced care and personalized treatment solutions.",
       quickLinks: "Quick Links",
@@ -206,6 +249,49 @@ export const translations = {
         tips: "Conseils de soins"
       }
     },
+    appointments: {
+      title: "Prendre un rendez-vous",
+      subtitle: "Choisissez votre date, heure et service préférés",
+      timeSlots: {
+        "9am": "09:00",
+        "930am": "09:30",
+        "10am": "10:00",
+        "1030am": "10:30",
+        "11am": "11:00",
+        "1130am": "11:30",
+        "1pm": "13:00",
+        "130pm": "13:30",
+        "2pm": "14:00",
+        "230pm": "14:30",
+        "3pm": "15:00",
+        "330pm": "15:30",
+        "4pm": "16:00",
+        "430pm": "16:30"
+      },
+      services: {
+        routineCleaning: "Nettoyage de routine",
+        dentalExam: "Examen dentaire",
+        teethWhitening: "Blanchiment des dents",
+        filling: "Plombage",
+        crownBridge: "Couronne/Pont",
+        rootCanal: "Traitement de canal",
+        dentalImplant: "Implant dentaire",
+        orthodonticConsultation: "Consultation orthodontique",
+        emergencyVisit: "Visite d'urgence",
+        other: "Autre"
+      },
+      form: {
+        newPatient: "Nouveau patient",
+        existingPatient: "Patient existant",
+        service: "Service",
+        insuranceProvider: "Assureur",
+        memberId: "Numéro d'adhésion",
+        additionalNotes: "Notes supplémentaires",
+        emergencyContact: "Contact d'urgence",
+        emergencyContactName: "Nom du contact d'urgence",
+        emergencyContactPhone: "Téléphone du contact d'urgence"
+      }
+    },
     footer: {
       description: "Spécialistes leaders en implants dentaires offrant des soins avancés et des solutions de traitement personnalisées.",
       quickLinks: "Liens rapides",
@@ -323,6 +409,49 @@ export const translations = {
         technology: "Tecnologia",
         health: "Salute orale",
         tips: "Consigli per la cura"
+      }
+    },
+    appointments: {
+      title: "Prenota un appuntamento",
+      subtitle: "Scegli la data, l'orario e il servizio preferiti",
+      timeSlots: {
+        "9am": "09:00",
+        "930am": "09:30",
+        "10am": "10:00",
+        "1030am": "10:30",
+        "11am": "11:00",
+        "1130am": "11:30",
+        "1pm": "13:00",
+        "130pm": "13:30",
+        "2pm": "14:00",
+        "230pm": "14:30",
+        "3pm": "15:00",
+        "330pm": "15:30",
+        "4pm": "16:00",
+        "430pm": "16:30"
+      },
+      services: {
+        routineCleaning: "Pulizia di routine",
+        dentalExam: "Esame dentale",
+        teethWhitening: "Sbiancamento dei denti",
+        filling: "Otturazione",
+        crownBridge: "Corona/Ponte",
+        rootCanal: "Devitalizzazione",
+        dentalImplant: "Impianto dentale",
+        orthodonticConsultation: "Consulto ortodontico",
+        emergencyVisit: "Visita di emergenza",
+        other: "Altro"
+      },
+      form: {
+        newPatient: "Nuovo paziente",
+        existingPatient: "Paziente esistente",
+        service: "Servizio",
+        insuranceProvider: "Assicurazione",
+        memberId: "ID membro",
+        additionalNotes: "Note aggiuntive",
+        emergencyContact: "Contatto di emergenza",
+        emergencyContactName: "Nome contatto di emergenza",
+        emergencyContactPhone: "Telefono contatto di emergenza"
       }
     },
     footer: {

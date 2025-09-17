@@ -23,6 +23,8 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: [
     // Skip all internal paths (_next)
-    '/((?!_next|api|favicon.ico).*)',
+    // Also skip any request for a file with an extension (e.g., images, css, js, fonts)
+    // This prevents locale redirection from breaking static assets under /public
+    '/((?!_next|api|.*\\..*).*)',
   ],
 }
