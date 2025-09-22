@@ -11,10 +11,20 @@
     "bookNow": "Book Now"
   },
   "hero": {
-    "title": "Welcome to Implantaly Group",
-    "subtitle": "Leading dental implant specialists with state-of-the-art technology and compassionate care. Your smile transformation is our expertise.",
-    "cta": "Book Your Consultation",
-    "learnMore": "Learn More",
+    "title": "Welcome to Implantaly\nDental Clinic By Hs",
+    "subtitle": "We use the highest quality materials on the market in order to provide the best results to our patients. So don’t worry about your smile, trust us to handle it.",
+    "cta": "Schedule Your Visit",
+    "learnMore": "Learn More About Us",
+    "featureBlocks": {
+      "experienceTitle": "20+ Years Experience",
+      "experienceDesc": "State-of-the-art implant protocols",
+      "technologyTitle": "Advanced Implant Technology",
+      "technologyDesc": "Advanced implant technology & techniques",
+      "careTitle": "Specialized Care",
+      "careDesc": "20+ years of implant excellence",
+      "teamTitle": "Expert Implant Team",
+      "teamDesc": "Specialized implant care for all ages"
+    },
     "features": {
       "experience": "20+ Years Experience",
       "technology": "Advanced Implant Technology",

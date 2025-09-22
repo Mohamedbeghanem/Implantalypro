@@ -11,10 +11,20 @@
     "bookNow": "Réserver Maintenant"
   },
   "hero": {
-    "title": "Bienvenue chez Implantaly Group",
-    "subtitle": "Spécialistes de premier plan en implants dentaires avec une technologie de pointe et des soins compatissants. La transformation de votre sourire est notre expertise.",
-    "cta": "Réserver Votre Consultation",
-    "learnMore": "En Savoir Plus",
+    "title": "Bienvenue chez Implantaly\nDental Clinic By Hs",
+    "subtitle": "Nous utilisons les matériaux de la plus haute qualité sur le marché afin de fournir les meilleurs résultats à nos patients. Alors ne vous inquiétez pas pour votre sourire, faites-nous confiance pour nous en occuper.",
+    "cta": "Planifier Votre Visite",
+    "learnMore": "En Savoir Plus Sur Nous",
+    "featureBlocks": {
+      "experienceTitle": "20+ Ans d'Expérience",
+      "experienceDesc": "20+ ans d'excellence en implantologie",
+      "technologyTitle": "Technologie d'Implant Avancée",
+      "technologyDesc": "Technologie et techniques d'implant avancées",
+      "careTitle": "Soins Spécialisés",
+      "careDesc": "Soins d'implant spécialisés pour tous les âges",
+      "teamTitle": "Équipe d'Implant Experte",
+      "teamDesc": "Protocoles d'implant de pointe"
+    },
     "features": {
       "experience": "20+ Ans d'Expérience",
       "technology": "Technologie d'Implant Avancée",

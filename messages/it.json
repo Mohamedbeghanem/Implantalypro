@@ -11,10 +11,20 @@
     "bookNow": "Prenota Ora"
   },
   "hero": {
-    "title": "Benvenuti in Implantaly Group",
-    "subtitle": "Specialisti leader in impianti dentali con tecnologia all'avanguardia e cure compassionevoli. La trasformazione del tuo sorriso è la nostra competenza.",
-    "cta": "Prenota la Tua Consulenza",
-    "learnMore": "Scopri di Più",
+    "title": "Benvenuti in Implantaly\nDental Clinic By Hs",
+    "subtitle": "Utilizziamo i materiali della massima qualità sul mercato per offrire i migliori risultati ai nostri pazienti. Quindi non preoccuparti del tuo sorriso, affidati a noi.",
+    "cta": "Prenota la Tua Visita",
+    "learnMore": "Scopri di Più su di Noi",
+    "featureBlocks": {
+      "experienceTitle": "20+ Anni di Esperienza",
+      "experienceDesc": "20+ anni di eccellenza negli impianti",
+      "technologyTitle": "Tecnologia di Impianto Avanzata",
+      "technologyDesc": "Tecnologia e tecniche di impianto avanzate",
+      "careTitle": "Cure Specializzate",
+      "careDesc": "Cure implantari specializzate per tutte le età",
+      "teamTitle": "Team di Impianto Esperto",
+      "teamDesc": "Protocolli di impianto all'avanguardia"
+    },
     "features": {
       "experience": "20+ Anni di Esperienza",
       "technology": "Tecnologia di Impianto Avanzata",

@@ -2,6 +2,7 @@
 
 import { useState, useMemo, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X, Phone, Home, User, Stethoscope, Mail, Clock, MapPin } from "lucide-react"
 import { useTranslations } from '@/hooks/use-translations'
 import { useRouter, usePathname } from 'next/navigation'
@@ -43,10 +44,14 @@ export function Navigation() {
             {/* Logo */}
             <div>
               <Link href={`/${currentLanguage}`} className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-sm">IG</span>
-                </div>
-                <span className="font-heading font-bold text-xl text-foreground gradient-text">Implantaly</span>
+                <Image
+                  src="/logo.png"
+                  alt="Your Brand Logo"
+                  width={120}
+                  height={32}
+                  priority
+                  className="h-8 w-auto"
+                />
               </Link>
             </div>
 
@@ -108,15 +113,19 @@ export function Navigation() {
           />
           
           {/* Menu Content */}
-          <div className="absolute top-0 right-0 w-80 h-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-2xl transform transition-transform duration-300 slide-in-right border-l border-gray-200/50 dark:border-gray-700/50">
+          <div className="absolute top-0 right-0 w-full max-w-sm sm:w-80 h-full bg-white/95 dark:bg-gray-900/95 backdrop-blur-xl shadow-2xl transform transition-transform duration-300 slide-in-right border-l border-gray-200/50 dark:border-gray-700/50">
             <div className="flex flex-col h-full">
               {/* Header */}
               <div className="flex items-center justify-between p-6 border-b border-border">
                 <Link href={`/${currentLanguage}`} className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-primary-foreground font-bold text-sm">IG</span>
-                  </div>
-                  <span className="font-heading font-bold text-xl text-foreground">Implantaly</span>
+                  <Image
+                    src="/logo.png"
+                    alt="Your Brand Logo"
+                    width={120}
+                    height={32}
+                    priority
+                    className="h-8 w-auto"
+                  />
                 </Link>
                 <button
                   onClick={() => setIsOpen(false)}

@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useTranslations } from '@/hooks/use-translations'
 import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
@@ -28,10 +29,14 @@ export function Footer() {
           <div className="space-y-4 slide-up">
             <div>
               <Link href={`/${currentLanguage}`} className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <span className="text-gray-900 font-bold text-lg">IG</span>
-                </div>
-                <span className="font-heading font-bold text-2xl text-white">Implantaly</span>
+                <Image
+                  src="/logo-white.png"
+                  alt="Your Brand Logo"
+                  width={140}
+                  height={40}
+                  priority
+                  className="h-10 w-auto"
+                />
               </Link>
             </div>
             <p className="text-gray-300 leading-relaxed">
