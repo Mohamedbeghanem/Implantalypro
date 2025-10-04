@@ -11,6 +11,17 @@ export const translations = {
       contact: "Contact",
       bookNow: "Book Now"
     },
+    about: {
+      title: "About Us",
+      subtitle: "Meet the team behind Implantaly Group",
+      description: "We are a team of dedicated professionals who are passionate about providing the highest quality of care to our patients. We are committed to staying up-to-date with the latest technology and techniques to ensure that you receive the best possible treatment.",
+      stats: {
+        happyPatients: "Happy Patients",
+        yearsExperience: "Years Experience",
+        awardsWon: "Awards Won",
+        locations: "Locations"
+      }
+    },
     hero: {
       title: "Welcome to Implantaly Group",
       subtitle: "Leading dental implant specialists with state-of-the-art technology and compassionate care. Your smile transformation is our expertise.",
@@ -28,6 +39,17 @@ export const translations = {
     services: {
       title: "Our Services",
       subtitle: "Comprehensive dental implant solutions tailored to your needs",
+      description: "From single implants to full-arch restorations, our team of experts is dedicated to providing you with the highest quality of care. We use the latest technology and techniques to ensure that your treatment is as comfortable and effective as possible.",
+      benefits: {
+        latestTechnology: "Latest Technology",
+        experiencedProfessionals: "Experienced Professionals",
+        comfortableEnvironment: "Comfortable Environment",
+        flexiblePayment: "Flexible Payment"
+      },
+      actions: {
+        scheduleConsultation: "Schedule a Consultation",
+        askQuestions: "Ask Questions"
+      },
       implantSurgery: "Dental Implant Surgery",
       implantSurgeryDesc: "Advanced implant placement with precision technology",
       boneGrafting: "Bone Grafting",
@@ -149,8 +171,17 @@ export const translations = {
       contact: "Contact",
       courses: "Courses",
       features: "Features",
-      stats: "Statistics",
-      testimonials: "Testimonials"
+      stats: {
+        graduates: "Graduates",
+        courses: "Courses"
+      },
+      testimonials: "Testimonials",
+      cta: "View Courses",
+      learnMore: "Learn More",
+      status: {
+        liveClasses: "Live Classes",
+        ceCredits: "CE Credits"
+      }
     },
     idesign: {
       title: "IDesign",
@@ -158,7 +189,17 @@ export const translations = {
       portfolio: "Portfolio",
       process: "Process",
       services: "Services",
-      technology: "Technology"
+      technology: "Technology",
+      cta: "View Portfolio",
+      learnMore: "Learn More",
+      status: {
+        "3dVisualization": "3D Visualization",
+        vrExperience: "VR Experience"
+      },
+      stats: {
+        designsCreated: "Designs Created",
+        accuracyRate: "Accuracy Rate"
+      }
     }
   },
   fr: {
@@ -172,6 +213,17 @@ export const translations = {
       appointments: "Rendez-vous",
       contact: "Contact",
       bookNow: "Réserver"
+    },
+    about: {
+      title: "À propos de nous",
+      subtitle: "Rencontrez l'équipe derrière Implantaly Group",
+      description: "Nous sommes une équipe de professionnels dévoués et passionnés par la fourniture de soins de la plus haute qualité à nos patients. Nous nous engageons à rester à jour avec les dernières technologies et techniques pour garantir que vous receviez le meilleur traitement possible.",
+      stats: {
+        happyPatients: "Patients satisfaits",
+        yearsExperience: "Années d'expérience",
+        awardsWon: "Prix remportés",
+        locations: "Emplacements"
+      }
     },
     hero: {
       title: "Bienvenue chez Implantaly Group",
@@ -190,6 +242,17 @@ export const translations = {
     services: {
       title: "Nos Services",
       subtitle: "Solutions complètes d'implants dentaires adaptées à vos besoins",
+      description: "Des implants uniques aux restaurations complètes de l'arcade, notre équipe d'experts se consacre à vous fournir des soins de la plus haute qualité. Nous utilisons les dernières technologies et techniques pour garantir que votre traitement soit aussi confortable et efficace que possible.",
+      benefits: {
+        latestTechnology: "Technologie de pointe",
+        experiencedProfessionals: "Professionnels expérimentés",
+        comfortableEnvironment: "Environnement confortable",
+        flexiblePayment: "Paiement flexible"
+      },
+      actions: {
+        scheduleConsultation: "Planifier une consultation",
+        askQuestions: "Poser des questions"
+      },
       implantSurgery: "Chirurgie d'implant dentaire",
       implantSurgeryDesc: "Pose d'implant avancée avec technologie de précision",
       boneGrafting: "Greffe osseuse",
@@ -311,8 +374,17 @@ export const translations = {
       contact: "Contact",
       courses: "Cours",
       features: "Fonctionnalités",
-      stats: "Statistiques",
-      testimonials: "Témoignages"
+      stats: {
+        graduates: "Diplômés",
+        courses: "Cours"
+      },
+      testimonials: "Témoignages",
+      cta: "Voir les cours",
+      learnMore: "En savoir plus",
+      status: {
+        liveClasses: "Cours en direct",
+        ceCredits: "Crédits CE"
+      }
     },
     idesign: {
       title: "IDesign",
@@ -320,7 +392,17 @@ export const translations = {
       portfolio: "Portfolio",
       process: "Processus",
       services: "Services",
-      technology: "Technologie"
+      technology: "Technologie",
+      cta: "Voir le portfolio",
+      learnMore: "En savoir plus",
+      status: {
+        "3dVisualization": "Visualisation 3D",
+        vrExperience: "Expérience VR"
+      },
+      stats: {
+        designsCreated: "Designs créés",
+        accuracyRate: "Taux de précision"
+      }
     }
   },
   it: {
@@ -334,6 +416,17 @@ export const translations = {
       appointments: "Appuntamenti",
       contact: "Contatto",
       bookNow: "Prenota ora"
+    },
+    about: {
+      title: "Chi siamo",
+      subtitle: "Incontra il team di Implantaly Group",
+      description: "Siamo un team di professionisti dedicati e appassionati nel fornire la massima qualità di cura ai nostri pazienti. Ci impegniamo a rimanere aggiornati con le ultime tecnologie e tecniche per garantire che tu riceva il miglior trattamento possibile.",
+      stats: {
+        happyPatients: "Pazienti felici",
+        yearsExperience: "Anni di esperienza",
+        awardsWon: "Premi vinti",
+        locations: "Sedi"
+      }
     },
     hero: {
       title: "Benvenuti da Implantaly Group",
@@ -352,6 +445,17 @@ export const translations = {
     services: {
       title: "I nostri servizi",
       subtitle: "Soluzioni complete di impianti dentali su misura per le tue esigenze",
+      description: "Dagli impianti singoli alle restaurazioni complete dell'arcata, il nostro team di esperti è dedicato a fornirti la massima qualità di cura. Utilizziamo le ultime tecnologie e tecniche per garantire che il tuo trattamento sia il più confortevole ed efficace possibile.",
+      benefits: {
+        latestTechnology: "Tecnologia all'avanguardia",
+        experiencedProfessionals: "Professionisti esperti",
+        comfortableEnvironment: "Ambiente confortevole",
+        flexiblePayment: "Pagamento flessibile"
+      },
+      actions: {
+        scheduleConsultation: "Pianifica una consulenza",
+        askQuestions: "Fai domande"
+      },
       implantSurgery: "Chirurgia implantare dentale",
       implantSurgeryDesc: "Posizionamento implantare avanzato con tecnologia di precisione",
       boneGrafting: "Innesto osseo",
@@ -473,8 +577,17 @@ export const translations = {
       contact: "Contatto",
       courses: "Corsi",
       features: "Funzionalità",
-      stats: "Statistiche",
-      testimonials: "Testimonianze"
+      stats: {
+        graduates: "Laureati",
+        courses: "Corsi"
+      },
+      testimonials: "Testimonianze",
+      cta: "Guarda i corsi",
+      learnMore: "Scopri di più",
+      status: {
+        liveClasses: "Corsi dal vivo",
+        ceCredits: "Crediti CE"
+      }
     },
     idesign: {
       title: "IDesign",
@@ -482,7 +595,17 @@ export const translations = {
       portfolio: "Portfolio",
       process: "Processo",
       services: "Servizi",
-      technology: "Tecnologia"
+      technology: "Tecnologia",
+      cta: "Guarda il portfolio",
+      learnMore: "Scopri di più",
+      status: {
+        "3dVisualization": "Visualizzazione 3D",
+        vrExperience: "Esperienza VR"
+      },
+      stats: {
+        designsCreated: "Design creati",
+        accuracyRate: "Tasso di precisione"
+      }
     }
   }
 }

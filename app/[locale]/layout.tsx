@@ -3,7 +3,7 @@ import { setRequestLocale } from 'next-intl/server'
 import { ClientProviders } from "@/components/client-providers"
 import { ClientLayout } from "@/components/client-layout"
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: Readonly<{

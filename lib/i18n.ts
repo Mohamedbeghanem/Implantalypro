@@ -5,13 +5,13 @@ import { translations } from './translations'
 // Convert the translations object to i18next format
 const resources = {
   en: {
-    common: translations.en,
+    translation: translations.en,
   },
   fr: {
-    common: translations.fr,
+    translation: translations.fr,
   },
   it: {
-    common: translations.it,
+    translation: translations.it,
   },
 }
 
@@ -27,8 +27,8 @@ i18n
       escapeValue: false,
     },
     
-    defaultNS: 'common',
-    ns: ['common'],
+    defaultNS: 'translation',
+    ns: ['translation'],
   })
 
 export default i18n

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { translations, Locale } from '@/lib/translations'
 
 export function useTranslations() {
-  const { t, i18n } = useTranslation('common')
+  const { t, i18n } = useTranslation()
   
   const getTranslation = (key: string, locale?: Locale) => {
     if (locale) {
@@ -16,11 +16,11 @@ export function useTranslations() {
         if (value && typeof value === 'object' && k in value) {
           value = value[k]
         } else {
-          return key // Return key if translation not found
+          return '' // Return empty string if translation not found
         }
       }
       
-      return typeof value === 'string' ? value : key
+      return typeof value === 'string' ? value : ''
     }
     
     // Use i18next translation

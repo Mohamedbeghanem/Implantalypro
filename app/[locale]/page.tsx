@@ -1,10 +1,9 @@
-import { HeroSection } from "@/components/hero-section"
 import { ServicesOverview } from "@/components/services-overview"
+import { ResponsiveHeroLogos } from "@/components/responsive-hero-logos"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { TestimonialsSection } from "@/components/testimonials-section"
 import { StatisticsSection } from "@/components/statistics-section"
 import { LatestBlogPosts } from "@/components/latest-blog-posts"
-import { ResponsiveHeroLogos } from "@/components/responsive-hero-logos"
 
 interface HomePageProps {
   params: Promise<{ locale: string }>
@@ -19,9 +18,6 @@ export default async function HomePage({ params }: HomePageProps) {
       {/* Responsive hero with dashed-circle logos under the header */}
       <ResponsiveHeroLogos />
 
-      {/* Hero Section */}
-      <HeroSection />
-      
       {/* Services Section */}
       <ServicesOverview />
       

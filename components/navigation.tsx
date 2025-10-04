@@ -18,8 +18,6 @@ export function Navigation() {
     { href: `/${currentLanguage}`, label: t('navigation.home'), icon: Home, description: "Welcome to Implantaly Group" },
     { href: `/${currentLanguage}/about`, label: t('navigation.about'), icon: User, description: "Learn about our team" },
     { href: `/${currentLanguage}/services`, label: t('navigation.services'), icon: Stethoscope, description: "Our implant services" },
-    { href: `/${currentLanguage}/alta-academy`, label: t('navigation.altaAcademy'), icon: User, description: "Dental coaching & education" },
-    { href: `/${currentLanguage}/idesign`, label: t('navigation.idesign'), icon: User, description: "3D dental design & concepts" },
     { href: `/${currentLanguage}/blog`, label: t('navigation.blog'), icon: Mail, description: "Read our latest articles" },
     { href: `/${currentLanguage}/contact`, label: t('navigation.contact'), icon: Mail, description: "Get in touch with us" },
   ], [t, currentLanguage])
