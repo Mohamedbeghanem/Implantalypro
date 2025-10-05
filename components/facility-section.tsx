@@ -72,9 +72,9 @@ export function FacilitySection() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-muted">
               <img
-                src="/placeholder-diwq6.png"
+                src="/image00002.jpeg"
                 alt="Modern dental facility interior"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* Floating Achievement Card */}

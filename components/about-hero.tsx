@@ -52,9 +52,9 @@ export function AboutHero() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-muted">
               <img
-                src="/placeholder-0rbi0.png"
+                src="/image00001.jpeg"
                 alt="SmileCare dental team"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>

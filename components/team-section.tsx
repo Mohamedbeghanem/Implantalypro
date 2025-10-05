@@ -4,12 +4,12 @@ import { Badge } from "@/components/ui/badge"
 export function TeamSection() {
   const teamMembers = [
     {
-      name: "Dr. Sarah Johnson",
+      name: "Dr. Samir Hamimed",
       role: "Lead Dentist & Founder",
       specialties: ["General Dentistry", "Cosmetic Dentistry", "Implants"],
       education: "DDS, University of California",
       experience: "20+ years",
-      image: "/professional-female-dentist.png",
+      image: "/image00003.jpeg",
     },
     {
       name: "Dr. Michael Chen",

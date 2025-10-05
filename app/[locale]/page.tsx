@@ -18,6 +18,7 @@ export default async function HomePage({ params }: HomePageProps) {
       {/* Responsive hero with dashed-circle logos under the header */}
       <ResponsiveHeroLogos />
 
+
       {/* Services Section */}
       <ServicesOverview />
       

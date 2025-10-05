@@ -60,9 +60,9 @@ export function ServicesHero() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-muted">
               <img
-                src="/dental-treatment-room.png"
+                src="/image00010.jpeg"
                 alt="Modern dental treatment room"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
