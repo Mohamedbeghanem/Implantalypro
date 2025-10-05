@@ -43,12 +43,11 @@ export function Navigation() {
             <div>
               <Link href={`/${currentLanguage}`} className="flex items-center space-x-2">
                 <Image
-                  src="/logo.png"
+                  src="/logo.svg"
                   alt="Your Brand Logo"
-                  width={120}
-                  height={32}
+                  width={90}
+                  height={30}
                   priority
-                  className="h-8 w-auto"
                 />
               </Link>
             </div>
@@ -117,12 +116,11 @@ export function Navigation() {
               <div className="flex items-center justify-between p-6 border-b border-border">
                 <Link href={`/${currentLanguage}`} className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                   <Image
-                    src="/logo.png"
+                    src="/logo.svg"
                     alt="Your Brand Logo"
-                    width={120}
-                    height={32}
+                    width={200}
+                    height={50}
                     priority
-                    className="h-8 w-auto"
                   />
                 </Link>
                 <button

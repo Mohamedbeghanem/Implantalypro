@@ -11,37 +11,109 @@ export function IDesignPortfolio() {
       title: "Full Arch Implant Design",
       description: "Complete smile transformation with All-on-4 implant design",
       category: "Full Arch",
-      image: "/placeholder-0rbi0.png"
+      image: "/image00001.jpeg"
     },
     {
       title: "Single Tooth Implant",
       description: "Precise single tooth replacement with natural aesthetics",
       category: "Single Tooth",
-      image: "/placeholder-diwq6.png"
+      image: "/image00002.jpeg"
     },
     {
       title: "Smile Makeover",
       description: "Comprehensive smile design with multiple restorations",
       category: "Cosmetic",
-      image: "/placeholder-kk841.png"
+      image: "/image00003.jpeg"
     },
     {
       title: "Implant Bridge Design",
       description: "Multi-unit restoration with optimal function and beauty",
       category: "Bridge",
-      image: "/placeholder-0rbi0.png"
+      image: "/image00004.jpeg"
     },
     {
       title: "Surgical Guide Design",
       description: "3D-printed surgical guides for precise implant placement",
       category: "Surgical",
-      image: "/placeholder-diwq6.png"
+      image: "/image00005.jpeg"
     },
     {
       title: "Virtual Smile Preview",
       description: "Before and after visualization of treatment outcomes",
       category: "Preview",
-      image: "/placeholder-kk841.png"
+      image: "/image00006.jpeg"
+    },
+    {
+      title: "Advanced Case Study 1",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00007.jpeg"
+    },
+    {
+      title: "Advanced Case Study 2",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00008.jpeg"
+    },
+    {
+      title: "Advanced Case Study 3",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00009.jpeg"
+    },
+    {
+      title: "Advanced Case Study 4",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00010.jpeg"
+    },
+    {
+      title: "Advanced Case Study 5",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00011.jpeg"
+    },
+    {
+      title: "Advanced Case Study 6",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00012.jpeg"
+    },
+    {
+      title: "Advanced Case Study 7",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00013.jpeg"
+    },
+    {
+      title: "Advanced Case Study 8",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00014.jpeg"
+    },
+    {
+      title: "Advanced Case Study 9",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00015.jpeg"
+    },
+    {
+      title: "Advanced Case Study 10",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00016.jpeg"
+    },
+    {
+      title: "Advanced Case Study 11",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00017.jpeg"
+    },
+    {
+      title: "Advanced Case Study 12",
+      description: "Detailed view of a complex restorative case.",
+      category: "Case Study",
+      image: "/image00018.jpeg"
     }
   ]
 
