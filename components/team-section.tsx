@@ -54,7 +54,7 @@ export function TeamSection() {
           {teamMembers.map((member, index) => (
             <Card key={index} className="group hover:shadow-lg transition-shadow duration-300">
               <CardHeader className="text-center pb-4">
-                <div className="w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden bg-muted">
+                <div className="w-32 h-32 mx-auto mb-4 rounded-xl overflow-hidden bg-muted">
                   <img
                     src={member.image || "/logo.svg"}
                     alt={member.name}

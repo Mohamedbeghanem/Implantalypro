@@ -79,7 +79,7 @@ export function ResponsiveHeroLogos() {
           </div>
 
           {/* Right column: dashed circle with logo cards */}
-          <div className="relative flex items-center justify-center overflow-hidden">
+          <div className="relative flex items-center justify-center">
             {/* Gradient blobs (decor) */}
             <div className="hidden md:block absolute -top-10 -left-10 w-56 h-56 bg-gradient-to-tr from-blue-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
             <div className="hidden md:block absolute -bottom-10 -right-8 w-72 h-72 bg-gradient-to-tr from-indigo-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
@@ -109,15 +109,16 @@ export function ResponsiveHeroLogos() {
               <div className="hidden md:block absolute -top-10 right-10 h-8 w-8 border-2 border-gray-200 rounded-full opacity-60"></div>
               <div className="hidden md:block absolute -bottom-8 left-12 h-6 w-6 border border-dashed border-gray-300 rounded-full opacity-70"></div>
 
+            </div>
               {/* Top card */}
               <a
                 href="https://implantaly.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic"
-                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/assets/svg/implantaly.svg" alt="Implantaly Dental Clinic" className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
 
               {/* Right card */}
@@ -126,9 +127,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic Alt"
-                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/assets/svg/implantaly-alt.svg" alt="Implantaly Dental Clinic Alt" className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
 
               {/* Bottom card */}
@@ -137,9 +138,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ALTA Academy"
-                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/assets/svg/alta-academy.svg" alt="ALTA Academy" className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
 
               {/* Left card */}
@@ -148,16 +149,13 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="iDesign"
-                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/assets/svg/idesign.svg" alt="iDesign" className="h-10 w-auto opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
-            </div>
           </div>
         </div>
       </div>
     </section>
   )
 }
-
-

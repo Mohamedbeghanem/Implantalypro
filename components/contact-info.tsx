@@ -6,10 +6,10 @@ export function ContactInfo() {
   const locations = [
     {
       name: "Main Office",
-      address: "123 Dental Street, Suite 100",
-      city: "Downtown City, ST 12345",
-      phone: "(555) 123-4567",
-      email: "main@smilecare.com",
+      address: "25 Rue said greffon,hassan badi Alger",
+      city: "",
+      phone: "+213 28 461 584",
+      email: "contact@implantaly.com",
       hours: [
         { day: "Monday - Friday", time: "8:00 AM - 6:00 PM" },
         { day: "Saturday", time: "9:00 AM - 3:00 PM" },
@@ -19,10 +19,10 @@ export function ContactInfo() {
     },
     {
       name: "Westside Branch",
-      address: "456 Oak Avenue, Suite 200",
-      city: "Westside City, ST 12346",
-      phone: "(555) 123-4568",
-      email: "westside@smilecare.com",
+      address: "",
+      city: "",
+      phone: "+213 560345253",
+      email: "ceo@implantaly.com",
       hours: [
         { day: "Monday - Thursday", time: "9:00 AM - 7:00 PM" },
         { day: "Friday", time: "8:00 AM - 5:00 PM" },

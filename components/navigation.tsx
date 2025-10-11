@@ -45,8 +45,8 @@ export function Navigation() {
                 <Image
                   src="/logo.svg"
                   alt="Your Brand Logo"
-                  width={90}
-                  height={30}
+                  width={120}
+                  height={32}
                   priority
                 />
               </Link>
@@ -118,8 +118,8 @@ export function Navigation() {
                   <Image
                     src="/logo.svg"
                     alt="Your Brand Logo"
-                    width={200}
-                    height={50}
+                    width={120}
+                    height={32}
                     priority
                   />
                 </Link>
