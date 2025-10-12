@@ -12,7 +12,7 @@ export function ResponsiveHeroLogos() {
   }
   return (
     <section className="w-full bg-white overflow-hidden">
-      <div className="container mx-auto px-4 md:px-5 lg:px-6 py-6 md:py-10">
+      <div className="container mx-auto px-4 md:px-5 lg:px-6 py-6 md:py-10 max-w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-8 items-center">
           {/* Left column: text + CTAs */}
           <div>
@@ -79,7 +79,7 @@ export function ResponsiveHeroLogos() {
           </div>
 
           {/* Right column: dashed circle with logo cards */}
-          <div className="relative flex items-center justify-center overflow-hidden">
+          <div className="relative flex items-center justify-center overflow-hidden min-h-[320px] sm:min-h-[380px]">
             {/* Gradient blobs (decor) */}
             <div className="hidden md:block absolute -top-10 -left-10 w-56 h-56 bg-gradient-to-tr from-blue-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
             <div className="hidden md:block absolute -bottom-10 -right-8 w-72 h-72 bg-gradient-to-tr from-indigo-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
@@ -91,7 +91,7 @@ export function ResponsiveHeroLogos() {
             </svg>
 
             {/* FIXED: Better responsive sizing and overflow control */}
-            <div className="relative z-10 w-[280px] sm:w-[320px] md:w-[340px] lg:w-[360px] aspect-square mx-auto">
+            <div className="relative z-10 w-[240px] sm:w-[280px] md:w-[320px] lg:w-[360px] aspect-square mx-auto scale-90 sm:scale-100">
               {/* Outer faint dashed circle */}
               <div className="hidden md:block absolute inset-0 border border-dashed border-gray-200 rounded-full opacity-40 scale-110 pointer-events-none"></div>
               {/* Main dashed circle (thicker) */}
@@ -116,9 +116,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic"
-                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Implantaly Dental Clinic Logo" className="h-12 sm:h-14 w-20 sm:w-24 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Implantaly Dental Clinic Logo" className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
 
               {/* Right card */}
@@ -127,9 +127,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic Alt"
-                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">Implantaly Alt</div>
+                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">Implantaly Alt</div>
               </a>
 
               {/* Bottom card */}
@@ -138,9 +138,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ALTA Academy"
-                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">ALTA Academy</div>
+                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">ALTA Academy</div>
               </a>
 
               {/* Left card */}
@@ -149,9 +149,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="iDesign"
-                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">iDesign</div>
+                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">iDesign</div>
               </a>
             </div>
           </div>
