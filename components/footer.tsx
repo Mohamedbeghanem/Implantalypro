@@ -5,14 +5,28 @@ import Image from "next/image"
 import { useTranslations } from '@/hooks/use-translations'
 import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
 
+const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 50 50"
+      fill="currentColor"
+    >
+      <path d="M41,4H9C6.243,4,4,6.243,4,9v32c0,2.757,2.243,5,5,5h32c2.757,0,5-2.243,5-5V9C46,6.243,43.757,4,41,4z M37.006,22.323 c-0.227,0.021-0.457,0.035-0.69,0.035c-2.623,0-4.928-1.349-6.269-3.388c0,5.349,0,11.435,0,11.537c0,4.709-3.818,8.527-8.527,8.527 s-8.527-3.818-8.527-8.527s3.818-8.527,8.527-8.527c0.178,0,0.352,0.016,0.527,0.027v4.202c-0.175-0.021-0.347-0.053-0.527-0.053 c-2.404,0-4.352,1.948-4.352,4.352s1.948,4.352,4.352,4.352s4.527-1.894,4.527-4.298c0-0.095,0.042-19.594,0.042-19.594h4.016 c0.378,3.591,3.277,6.425,6.901,6.685V22.323z" />
+    </svg>
+  );
+};
+
 export function Footer() {
   const { t, currentLanguage } = useTranslations()
 
   const socialLinks = [
-    { icon: Facebook, href: "#", label: "Facebook" },
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Facebook, href: "https://www.facebook.com/implantaly", label: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/implantaly_dental_clinic_by_hs", label: "Instagram" },
+    { icon: TikTokIcon, href: "https://www.tiktok.com/@implantaly.dental.clinic", label: "TikTok" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/implantaly-dental-clinic-by-hs/", label: "LinkedIn" },
+
   ]
 
   return (
@@ -21,7 +35,7 @@ export function Footer() {
       <div className="absolute inset-0">
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 fade-in">
           {/* Company Info */}
           <div className="space-y-4 slide-up">

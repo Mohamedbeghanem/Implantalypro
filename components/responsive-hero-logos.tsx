@@ -11,12 +11,12 @@ export function ResponsiveHeroLogos() {
     return value === key ? fallback : value
   }
   return (
-    <section className="w-full bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <section className="w-full bg-white overflow-hidden">
+      <div className="container mx-auto px-4 md:px-5 lg:px-6 py-6 md:py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-x-8 items-center">
           {/* Left column: text + CTAs */}
           <div>
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tight tracking-tight text-gray-900">
+            <h1 className="text-[clamp(2rem,4vw,3rem)] font-extrabold leading-tight tracking-tight text-gray-900">
               {(() => {
                 const parts = (t("hero.title") as string).split("\n")
                 return (
@@ -79,18 +79,19 @@ export function ResponsiveHeroLogos() {
           </div>
 
           {/* Right column: dashed circle with logo cards */}
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center overflow-hidden">
             {/* Gradient blobs (decor) */}
             <div className="hidden md:block absolute -top-10 -left-10 w-56 h-56 bg-gradient-to-tr from-blue-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
             <div className="hidden md:block absolute -bottom-10 -right-8 w-72 h-72 bg-gradient-to-tr from-indigo-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
 
-            {/* Curved line spanning right half only (behind circles) */}
-            <svg className="hidden md:block absolute top-1/2 left-1/2 -translate-y-1/2 w-[50vw] max-w-none h-[300px] pointer-events-none z-0" viewBox="0 0 720 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M0 180 C 160 60, 560 260, 720 180" stroke="#E5E7EB" strokeWidth="2" strokeLinecap="round" className="opacity-40" />
-              <path d="M0 200 C 180 80, 540 280, 720 200" stroke="#E5E7EB" strokeWidth="1.5" strokeLinecap="round" className="opacity-25" />
+            {/* Curved line - FIXED: Contained within viewport */}
+            <svg className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[400px] h-[300px] pointer-events-none z-0" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
+              <path d="M50 180 C 120 80, 280 260, 350 180" stroke="#E5E7EB" strokeWidth="2" strokeLinecap="round" className="opacity-40" />
+              <path d="M50 200 C 130 90, 270 280, 350 200" stroke="#E5E7EB" strokeWidth="1.5" strokeLinecap="round" className="opacity-25" />
             </svg>
 
-            <div className="relative z-10 w-[20rem] h-[20rem] sm:w-[22rem] sm:h-[22rem] lg:w-[24rem] lg:h-[24rem]">
+            {/* FIXED: Better responsive sizing and overflow control */}
+            <div className="relative z-10 w-[280px] sm:w-[320px] md:w-[340px] lg:w-[360px] aspect-square mx-auto">
               {/* Outer faint dashed circle */}
               <div className="hidden md:block absolute inset-0 border border-dashed border-gray-200 rounded-full opacity-40 scale-110 pointer-events-none"></div>
               {/* Main dashed circle (thicker) */}
@@ -101,7 +102,7 @@ export function ResponsiveHeroLogos() {
               <div className="hidden md:block absolute inset-12 border border-gray-100 rounded-full opacity-60 pointer-events-none"></div>
               <div className="hidden md:block absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 border border-gray-200 rounded-full opacity-60 pointer-events-none"></div>
 
-              {/* Accents around the circle (hidden on small screens) */}
+              {/* Accents around the circle */}
               <div className="hidden md:block absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-4 bg-white border border-gray-200 rounded-full shadow-sm"></div>
               <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 w-3 h-3 bg-white border border-gray-200 rounded-full shadow-sm"></div>
               <div className="hidden md:block absolute -bottom-3 left-1/2 -translate-x-1/2 w-5 h-5 bg-white border border-gray-200 rounded-full shadow-sm"></div>
@@ -109,16 +110,15 @@ export function ResponsiveHeroLogos() {
               <div className="hidden md:block absolute -top-10 right-10 h-8 w-8 border-2 border-gray-200 rounded-full opacity-60"></div>
               <div className="hidden md:block absolute -bottom-8 left-12 h-6 w-6 border border-dashed border-gray-300 rounded-full opacity-70"></div>
 
-            </div>
-              {/* Top card */}
+              {/* Top card - FIXED: More compact sizing */}
               <a
                 href="https://implantaly.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic"
-                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img src="/logo.svg" alt="Implantaly Dental Clinic Logo" className="h-12 sm:h-14 w-20 sm:w-24 opacity-90 group-hover:opacity-100 transition-opacity" />
               </a>
 
               {/* Right card */}
@@ -127,9 +127,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic Alt"
-                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">Implantaly Alt</div>
               </a>
 
               {/* Bottom card */}
@@ -138,9 +138,9 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ALTA Academy"
-                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">ALTA Academy</div>
               </a>
 
               {/* Left card */}
@@ -149,10 +149,11 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="iDesign"
-                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-3 sm:p-4 rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Your Brand Logo" className="h-20 w-36 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <div className="h-12 sm:h-14 w-20 sm:w-24 flex items-center justify-center text-xs sm:text-sm text-gray-500 font-medium">iDesign</div>
               </a>
+            </div>
           </div>
         </div>
       </div>

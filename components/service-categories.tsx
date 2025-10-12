@@ -62,8 +62,8 @@ export function ServiceCategories() {
   ]
 
   return (
-    <section className="py-20 bg-muted/30">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 bg-muted/30">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="font-heading font-bold text-3xl lg:text-4xl text-foreground">Our Service Categories</h2>

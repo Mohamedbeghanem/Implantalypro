@@ -37,8 +37,8 @@ export function ServicesOverview() {
   ]
 
   return (
-    <section className="w-full py-20 lg:py-32 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="w-full py-16 bg-background">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8">
         {/* Enhanced Section Header */}
         <div className="text-center space-y-6 mb-20 slide-up">
           <div className="inline-block p-2 bg-primary/10 rounded-full mb-4">
