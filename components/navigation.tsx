@@ -87,15 +87,18 @@ export function Navigation() {
               </div>
             </div>
 
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 rounded-xl text-muted-foreground hover:text-foreground hover:bg-accent/50 relative z-60 transition-all duration-300"
-            >
-              <div className={`transition-all duration-500 ${isOpen ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`}>
-                {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-              </div>
-            </button>
+            {/* Mobile menu button & Language Switcher */}
+            <div className="flex items-center md:hidden">
+              <LanguageSwitcher />
+              <button
+                onClick={() => setIsOpen(!isOpen)}
+                className="p-2 rounded-xl text-muted-foreground hover:text-foreground hover:bg-accent/50 relative z-60 transition-all duration-300"
+              >
+                <div className={`transition-all duration-500 ${isOpen ? 'rotate-180 scale-110' : 'rotate-0 scale-100'}`}>
+                  {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                </div>
+              </button>
+            </div>
           </div>
         </div>
       </nav>
@@ -152,7 +155,6 @@ export function Navigation() {
 
               {/* Footer */}
               <div className="p-6 border-t border-border space-y-4">
-                <LanguageSwitcher />
                 <div className="flex items-center space-x-2 text-muted-foreground">
                   <Phone className="w-4 h-4" />
                   <span className="text-sm font-medium">(555) 123-4567</span>
