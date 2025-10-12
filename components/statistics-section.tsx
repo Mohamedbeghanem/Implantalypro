@@ -90,25 +90,6 @@ export function StatisticsSection() {
           </div>
         </div>
 
-        {/* Trust Indicators */}
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-8 bg-white/80 backdrop-blur-sm rounded-full px-8 py-4 shadow-lg">
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-              <span className="text-sm font-medium text-muted-foreground">Licensed & Certified</span>
-            </div>
-            <div className="w-px h-6 bg-border"></div>
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
-              <span className="text-sm font-medium text-muted-foreground">Insurance Accepted</span>
-            </div>
-            <div className="w-px h-6 bg-border"></div>
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-              <span className="text-sm font-medium text-muted-foreground">Emergency Care</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   )

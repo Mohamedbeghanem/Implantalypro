@@ -33,76 +33,64 @@ export function ResponsiveHeroLogos() {
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <Link href={`#appointment`} className="inline-flex items-center justify-center px-7 py-3 rounded-xl text-white bg-black hover:bg-gray-900 transition-colors">
+              <Link
+                href={`#appointment`}
+                className="inline-flex items-center justify-center px-7 py-3 rounded-xl text-white bg-black hover:bg-gray-900 transition-colors"
+              >
                 {t("hero.cta")}
               </Link>
-              <Link href={`#about`} className="inline-flex items-center justify-center px-7 py-3 rounded-xl border border-gray-300 text-gray-900 hover:bg-gray-50 transition-colors">
+              <Link
+                href={`#about`}
+                className="inline-flex items-center justify-center px-7 py-3 rounded-xl border border-gray-300 text-gray-900 hover:bg-gray-50 transition-colors"
+              >
                 {t("hero.learnMore")}
               </Link>
             </div>
 
-            {/* Feature icons row */}
-            <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-1.5">
-              <div className="flex items-start gap-1">
-                <div className="h-7 w-7 shrink-0 rounded-full bg-gray-100 text-gray-900 flex items-center justify-center">
-                  <Award className="h-3.5 w-3.5" aria-hidden="true" />
-                </div>
-                <div>
-                  <div className="text-[12px] md:text-[13px] font-semibold leading-tight text-gray-900">{tr("hero.featureBlocks.experienceTitle", "20+ Years Experience")}</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-1">
-                <div className="h-7 w-7 shrink-0 rounded-full bg-gray-100 text-gray-900 flex items-center justify-center">
-                  <Cpu className="h-3.5 w-3.5" aria-hidden="true" />
-                </div>
-                <div>
-                  <div className="text-[12px] md:text-[13px] font-semibold leading-tight text-gray-900">{tr("hero.featureBlocks.technologyTitle", "Advanced Implant Technology")}</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-1">
-                <div className="h-7 w-7 shrink-0 rounded-full bg-gray-100 text-gray-900 flex items-center justify-center">
-                  <HeartPulse className="h-3.5 w-3.5" aria-hidden="true" />
-                </div>
-                <div>
-                  <div className="text-[12px] md:text-[13px] font-semibold leading-tight text-gray-900">{tr("hero.featureBlocks.careTitle", "Specialized Care")}</div>
-                </div>
-              </div>
-              <div className="flex items-start gap-1">
-                <div className="h-7 w-7 shrink-0 rounded-full bg-gray-100 text-gray-900 flex items-center justify-center">
-                  <Users className="h-3.5 w-3.5" aria-hidden="true" />
-                </div>
-                <div>
-                  <div className="text-[12px] md:text-[13px] font-semibold leading-tight text-gray-900">{tr("hero.featureBlocks.teamTitle", "Expert Implant Team")}</div>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Right column: dashed circle with logo cards */}
-          <div className="relative flex items-center justify-center overflow-hidden min-h-[320px] sm:min-h-[380px]">
+          <div className="relative flex items-center justify-center py-12 sm:py-16 md:py-8">
+            <div className="relative flex items-center justify-center overflow-hidden min-h-[320px] sm:min-h-[380px]"></div>
+
             {/* Gradient blobs (decor) */}
             <div className="hidden md:block absolute -top-10 -left-10 w-56 h-56 bg-gradient-to-tr from-blue-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
             <div className="hidden md:block absolute -bottom-10 -right-8 w-72 h-72 bg-gradient-to-tr from-indigo-100 to-transparent rounded-full blur-3xl opacity-30 pointer-events-none"></div>
 
-            {/* Curved line - FIXED: Contained within viewport */}
-            <svg className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[400px] h-[300px] pointer-events-none z-0" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid meet">
-              <path d="M50 180 C 120 80, 280 260, 350 180" stroke="#E5E7EB" strokeWidth="2" strokeLinecap="round" className="opacity-40" />
-              <path d="M50 200 C 130 90, 270 280, 350 200" stroke="#E5E7EB" strokeWidth="1.5" strokeLinecap="round" className="opacity-25" />
+            {/* Curved line */}
+            <svg
+              className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[400px] h-[300px] pointer-events-none z-0"
+              viewBox="0 0 400 300"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M50 180 C 120 80, 280 260, 350 180"
+                stroke="#E5E7EB"
+                strokeWidth="2"
+                strokeLinecap="round"
+                className="opacity-40"
+              />
+              <path
+                d="M50 200 C 130 90, 270 280, 350 200"
+                stroke="#E5E7EB"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                className="opacity-25"
+              />
             </svg>
 
-            {/* FIXED: Better responsive sizing and overflow control */}
-            <div className="relative z-10 w-[240px] sm:w-[280px] md:w-[320px] lg:w-[360px] aspect-square mx-auto scale-90 sm:scale-100">
-              {/* Outer faint dashed circle */}
+            {/* Circle container */}
+            <div className="relative z-10 w-[200px] sm:w-[260px] md:w-[320px] lg:w-[360px] aspect-square mx-auto">
               <div className="hidden md:block absolute inset-0 border border-dashed border-gray-200 rounded-full opacity-40 scale-110 pointer-events-none"></div>
-              {/* Main dashed circle (thicker) */}
               <div className="absolute inset-0 border-[3px] border-dashed border-gray-300 rounded-full pointer-events-none"></div>
-
-              {/* Extra decorative strokes/rings */}
               <div className="hidden md:block absolute inset-6 border border-dashed border-gray-200 rounded-full opacity-50 pointer-events-none"></div>
               <div className="hidden md:block absolute inset-12 border border-gray-100 rounded-full opacity-60 pointer-events-none"></div>
               <div className="hidden md:block absolute inset-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 border border-gray-200 rounded-full opacity-60 pointer-events-none"></div>
 
-              {/* Accents around the circle */}
+              {/* Decorative accents */}
               <div className="hidden md:block absolute -top-3 left-1/2 -translate-x-1/2 w-4 h-4 bg-white border border-gray-200 rounded-full shadow-sm"></div>
               <div className="hidden md:block absolute top-1/2 -right-3 -translate-y-1/2 w-3 h-3 bg-white border border-gray-200 rounded-full shadow-sm"></div>
               <div className="hidden md:block absolute -bottom-3 left-1/2 -translate-x-1/2 w-5 h-5 bg-white border border-gray-200 rounded-full shadow-sm"></div>
@@ -110,15 +98,19 @@ export function ResponsiveHeroLogos() {
               <div className="hidden md:block absolute -top-10 right-10 h-8 w-8 border-2 border-gray-200 rounded-full opacity-60"></div>
               <div className="hidden md:block absolute -bottom-8 left-12 h-6 w-6 border border-dashed border-gray-300 rounded-full opacity-70"></div>
 
-              {/* Top card - FIXED: More compact sizing */}
+              {/* Top card */}
               <a
                 href="https://implantaly.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic"
-                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <img src="/logo.svg" alt="Implantaly Dental Clinic Logo" className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 opacity-90 group-hover:opacity-100 transition-opacity" />
+                <img
+                  src="/logo.svg"
+                  alt="Implantaly Dental Clinic Logo"
+                  className="h-8 sm:h-12 md:h-14 w-14 sm:w-20 md:w-24 opacity-90 group-hover:opacity-100 transition-opacity"
+                />
               </a>
 
               {/* Right card */}
@@ -127,9 +119,11 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Implantaly Dental Clinic Alt"
-                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 bg-white p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">Implantaly Alt</div>
+                <div className="h-8 sm:h-12 md:h-14 w-14 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">
+                  Implantaly Alt
+                </div>
               </a>
 
               {/* Bottom card */}
@@ -138,9 +132,11 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ALTA Academy"
-                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 bg-white p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">ALTA Academy</div>
+                <div className="h-8 sm:h-12 md:h-14 w-14 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">
+                  ALTA Academy
+                </div>
               </a>
 
               {/* Left card */}
@@ -149,9 +145,11 @@ export function ResponsiveHeroLogos() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="iDesign"
-                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
+                className="group absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 bg-white p-2 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-md transition-transform duration-200 hover:scale-105 hover:shadow-lg"
               >
-                <div className="h-10 sm:h-12 md:h-14 w-16 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">iDesign</div>
+                <div className="h-8 sm:h-12 md:h-14 w-14 sm:w-20 md:w-24 flex items-center justify-center text-[10px] sm:text-xs md:text-sm text-gray-500 font-medium">
+                  iDesign
+                </div>
               </a>
             </div>
           </div>
