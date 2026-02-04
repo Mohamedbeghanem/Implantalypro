@@ -8,10 +8,11 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }>) {
   // Enable static rendering
-  setRequestLocale(params.locale)
+  const { locale } = await params
+  setRequestLocale(locale)
 
   return (
     <ClientProviders>
