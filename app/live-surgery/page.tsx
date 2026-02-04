@@ -139,6 +139,32 @@ function normalizeSession(
 
   const startDateValue = toDate(startDate)
 
+  const primaryCtaLabel =
+    session.primaryCtaLabel ||
+    session.ctaLabel ||
+    session.ctaText ||
+    session.cta?.label ||
+    session.primaryCta?.label ||
+    (session.ctaType === "contact" ? "Contact" : "Reserve")
+
+  const primaryCtaUrl =
+    session.primaryCtaUrl ||
+    session.ctaUrl ||
+    session.cta?.url ||
+    session.primaryCta?.url ||
+    session.link
+
+  const secondaryCtaLabel =
+    session.secondaryCtaLabel ||
+    session.secondaryCtaText ||
+    session.secondaryCta?.label ||
+    session.ctaSecondary?.label
+
+  const secondaryCtaUrl =
+    session.secondaryCtaUrl ||
+    session.secondaryCta?.url ||
+    session.ctaSecondary?.url
+
   return {
     id:
       String(
@@ -181,12 +207,10 @@ function normalizeSession(
       session.price ||
       session.cost ||
       "Pricing available on request.",
-    ctaLabel:
-      session.ctaLabel ||
-      session.ctaText ||
-      session.cta?.label ||
-      (session.ctaType === "contact" ? "Contact" : "Reserve"),
-    ctaUrl: session.ctaUrl || session.cta?.url || session.link,
+    primaryCtaLabel,
+    primaryCtaUrl,
+    secondaryCtaLabel,
+    secondaryCtaUrl,
   }
 }
 
